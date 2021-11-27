@@ -1,0 +1,38 @@
+fileFormatVersion: 2
+guid: 7c05cfae3f7eddc45adbe9371fb57e52
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Galano Grotesque Alt
+  fontNames:
+  - Galano Grotesque Alt
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 63e4b000ed5ebf448863680fd013d0e1, type: 3}
+  - {fileID: 12800000, guid: c2f20e12ea90adb419d81748b5fde6e2, type: 3}
+  - {fileID: 12800000, guid: 97157fb21af9d244dbe6b6c2c501af8b, type: 3}
+  - {fileID: 12800000, guid: 28f7a66358d620e40ab1d375482e6499, type: 3}
+  - {fileID: 12800000, guid: 23b04be5d6a26b74bb3afda0d0c4dcde, type: 3}
+  - {fileID: 12800000, guid: 420c58f59b279c04bbb45e14a7cf8149, type: 3}
+  - {fileID: 12800000, guid: 4a210476b9fa64b4094d7d8c9f305439, type: 3}
+  - {fileID: 12800000, guid: 10ff24a679139814a99843e20238d180, type: 3}
+  - {fileID: 12800000, guid: 1725bc57142a29e45b63818183269590, type: 3}
+  - {fileID: 12800000, guid: c62c225b522a06042905740e1c9a52f8, type: 3}
+  - {fileID: 12800000, guid: 4357fdaba178a7947ae3d642fedc1c6a, type: 3}
+  - {fileID: 12800000, guid: 428ed2cb7a35488439ebb9a92c601b7e, type: 3}
+  - {fileID: 12800000, guid: 409b78fbdd7f9d64a87985b1a4225c74, type: 3}
+  - {fileID: 12800000, guid: a520b13c42725cc44bda20822610691e, type: 3}
+  - {fileID: 12800000, guid: 967c0c7cf170ee94991500186a2290be, type: 3}
+  - {fileID: 12800000, guid: 0cd111ef19fa55a47a853b8275546ce9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
