@@ -1,36 +1,16 @@
 ﻿using System;
 using System.Linq;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.UI.ProceduralImage;
-
-[CreateAssetMenu(fileName = "ChatPreset", menuName = "ScriptableObjects/ChatPresetsScriptableObject", order = 1)]
-public class ChatPresetsScriptableObject : ScriptableObject
-{
-    public float MaxWidthOfMessageItem = 520.0f;
-    
-    public float MinWidthChatItem = 250.0f;
-    public float MinHeightChatItem = 75.0f;
-    public float ChatElementSpacing = 20f;
-    public float ChatElementLeftPosX = 20f;
-    public float ChatElementRightPosX = 810f;
-    public float WidthPerCharacter = 20.0f;
-    public float HeightPerLine = 60.0f;
-    public int MaxCharactersInALine = 27;
-    public float ChatStartYPosition = 20.0f;
-    public float CornerRound = 15;
-    public Color ownerChatColor;
-    public Color otherChatColor;
-    public Color ownerTextColor;
-    public Color otherTextColor;
-}
 
 public class ChatWindow : MonoBehaviour
 {
     [SerializeField] private ChatPresetsScriptableObject _chatPresetsScriptableObject;
     [SerializeField] private float lastChatHeight;
     [SerializeField] private float lastChatPositionY;
-
+    [SerializeField] private TextMeshProUGUI ufui;
+    
     private void Start()
     {
         lastChatPositionY = _chatPresetsScriptableObject.ChatStartYPosition;
@@ -86,7 +66,8 @@ public class ChatWindow : MonoBehaviour
             this.height = height;
         }
     }
-
+    
+    
     private ContentSize GetContentSize(ChatElement chatElement)
     {
         var content = chatElement.GetContent();

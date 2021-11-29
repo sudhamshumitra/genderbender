@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ChatItem : MonoBehaviour
 {
@@ -17,6 +15,5 @@ public class ChatItem : MonoBehaviour
         var rectTransform = chatText.GetComponent<RectTransform>();
         rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, width);
         rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
-
     }    
 }

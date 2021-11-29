@@ -2222,7 +2222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3afbff636d236a148a071dbb3ab251c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _chatPresetsScriptableObject: {fileID: 11400000, guid: 6a85db8f6a1de9942ad7e88eb2af0f73,
+  _chatPresetsScriptableObject: {fileID: 11400000, guid: d35dda06795a46a4f91cf1e95d8a47e0,
     type: 2}
   lastChatHeight: 0
   lastChatPositionY: -20

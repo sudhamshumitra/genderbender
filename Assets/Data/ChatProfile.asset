@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb9206ffc974d15a810a13f1d6f69f2, type: 3}
+  m_Name: ChatProfile
+  m_EditorClassIdentifier: 
+  CardDataCollection:
+  - profileName: Yash
+    coverSprite: {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    coverText: Yash Jain, 25
+    aboutText: Codes for bread, <br>Overconfident about my half-baked culinary skills,
+      <br>Navigating the jigsaw of life, <br>In a committed relationship, shopping
+      for friends here in the new city
+    basicsAndInterests:
+    - bandImage: {fileID: 21300000, guid: e019cd8c6a958a74bb226a0fd85030d6, type: 3}
+      bandName: height 6'
+    - bandImage: {fileID: 21300000, guid: 07d868e0fd2a23942bd04c6dffb76ed7, type: 3}
+      bandName: wt 72
+    - bandImage: {fileID: 21300000, guid: 60cfd84ae231a4943b3f0f6cf0dcf409, type: 3}
+      bandName: politics left
+    - bandImage: {fileID: 21300000, guid: b31073eee0a30d44d88a0164ab644996, type: 3}
+      bandName: feminist-ally
+    - bandImage: {fileID: 21300000, guid: 54af60d343d3e3b458ad7e97dd60dd04, type: 3}
+      bandName: alcohol socially
+    sprite2: {fileID: 21300000, guid: 91f001e41c59e1544a01b124dc02d437, type: 3}
+    spotifyItems:
+    - bandImage: {fileID: 21300000, guid: 5a984bff39e031944bdd8fc5ae443bd8, type: 3}
+      bandName: adele
+    - bandImage: {fileID: 21300000, guid: bfd7f2d02bcb369458540a3a6e2cea7f, type: 3}
+      bandName: atif aslam
+    instagramSprites:
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+  - profileName: Yash
+    coverSprite: {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    coverText: Yash Jain, 2
+    aboutText: Codes for bread, <br>Overconfident about my half-baked culinary skills,
+      <br>Navigating the jigsaw of life, <br>In a committed relationship, shopping
+      for friends here in the new city
+    basicsAndInterests:
+    - bandImage: {fileID: 21300000, guid: e019cd8c6a958a74bb226a0fd85030d6, type: 3}
+      bandName: height 6'
+    - bandImage: {fileID: 21300000, guid: 07d868e0fd2a23942bd04c6dffb76ed7, type: 3}
+      bandName: wt 72
+    - bandImage: {fileID: 21300000, guid: 60cfd84ae231a4943b3f0f6cf0dcf409, type: 3}
+      bandName: politics left
+    - bandImage: {fileID: 21300000, guid: b31073eee0a30d44d88a0164ab644996, type: 3}
+      bandName: feminist-ally
+    - bandImage: {fileID: 21300000, guid: 54af60d343d3e3b458ad7e97dd60dd04, type: 3}
+      bandName: alcohol socially
+    sprite2: {fileID: 21300000, guid: 91f001e41c59e1544a01b124dc02d437, type: 3}
+    spotifyItems:
+    - bandImage: {fileID: 21300000, guid: 5a984bff39e031944bdd8fc5ae443bd8, type: 3}
+      bandName: adele
+    - bandImage: {fileID: 21300000, guid: bfd7f2d02bcb369458540a3a6e2cea7f, type: 3}
+      bandName: atif aslam
+    instagramSprites:
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+  - profileName: Yash
+    coverSprite: {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    coverText: Yash Jain, 3
+    aboutText: Codes for bread, <br>Overconfident about my half-baked culinary skills,
+      <br>Navigating the jigsaw of life, <br>In a committed relationship, shopping
+      for friends here in the new city
+    basicsAndInterests:
+    - bandImage: {fileID: 21300000, guid: e019cd8c6a958a74bb226a0fd85030d6, type: 3}
+      bandName: height 6'
+    - bandImage: {fileID: 21300000, guid: 07d868e0fd2a23942bd04c6dffb76ed7, type: 3}
+      bandName: wt 72
+    - bandImage: {fileID: 21300000, guid: 60cfd84ae231a4943b3f0f6cf0dcf409, type: 3}
+      bandName: politics left
+    - bandImage: {fileID: 21300000, guid: b31073eee0a30d44d88a0164ab644996, type: 3}
+      bandName: feminist-ally
+    - bandImage: {fileID: 21300000, guid: 54af60d343d3e3b458ad7e97dd60dd04, type: 3}
+      bandName: alcohol socially
+    sprite2: {fileID: 21300000, guid: 91f001e41c59e1544a01b124dc02d437, type: 3}
+    spotifyItems:
+    - bandImage: {fileID: 21300000, guid: 5a984bff39e031944bdd8fc5ae443bd8, type: 3}
+      bandName: adele
+    - bandImage: {fileID: 21300000, guid: bfd7f2d02bcb369458540a3a6e2cea7f, type: 3}
+      bandName: atif aslam
+    instagramSprites:
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+  - profileName: Yash
+    coverSprite: {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    coverText: Yash Jain, 4
+    aboutText: Codes for bread, <br>Overconfident about my half-baked culinary skills,
+      <br>Navigating the jigsaw of life, <br>In a committed relationship, shopping
+      for friends here in the new city
+    basicsAndInterests:
+    - bandImage: {fileID: 21300000, guid: e019cd8c6a958a74bb226a0fd85030d6, type: 3}
+      bandName: height 6'
+    - bandImage: {fileID: 21300000, guid: 07d868e0fd2a23942bd04c6dffb76ed7, type: 3}
+      bandName: wt 72
+    - bandImage: {fileID: 21300000, guid: 60cfd84ae231a4943b3f0f6cf0dcf409, type: 3}
+      bandName: politics left
+    - bandImage: {fileID: 21300000, guid: b31073eee0a30d44d88a0164ab644996, type: 3}
+      bandName: feminist-ally
+    - bandImage: {fileID: 21300000, guid: 54af60d343d3e3b458ad7e97dd60dd04, type: 3}
+      bandName: alcohol socially
+    sprite2: {fileID: 21300000, guid: 91f001e41c59e1544a01b124dc02d437, type: 3}
+    spotifyItems:
+    - bandImage: {fileID: 21300000, guid: 5a984bff39e031944bdd8fc5ae443bd8, type: 3}
+      bandName: adele
+    - bandImage: {fileID: 21300000, guid: bfd7f2d02bcb369458540a3a6e2cea7f, type: 3}
+      bandName: atif aslam
+    instagramSprites:
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+  - profileName: Yash
+    coverSprite: {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    coverText: Yash Jain, 5
+    aboutText: Codes for bread, <br>Overconfident about my half-baked culinary skills,
+      <br>Navigating the jigsaw of life, <br>In a committed relationship, shopping
+      for friends here in the new city
+    basicsAndInterests:
+    - bandImage: {fileID: 21300000, guid: e019cd8c6a958a74bb226a0fd85030d6, type: 3}
+      bandName: height 6'
+    - bandImage: {fileID: 21300000, guid: 07d868e0fd2a23942bd04c6dffb76ed7, type: 3}
+      bandName: wt 72
+    - bandImage: {fileID: 21300000, guid: 60cfd84ae231a4943b3f0f6cf0dcf409, type: 3}
+      bandName: politics left
+    - bandImage: {fileID: 21300000, guid: b31073eee0a30d44d88a0164ab644996, type: 3}
+      bandName: feminist-ally
+    - bandImage: {fileID: 21300000, guid: 54af60d343d3e3b458ad7e97dd60dd04, type: 3}
+      bandName: alcohol socially
+    sprite2: {fileID: 21300000, guid: 91f001e41c59e1544a01b124dc02d437, type: 3}
+    spotifyItems:
+    - bandImage: {fileID: 21300000, guid: 5a984bff39e031944bdd8fc5ae443bd8, type: 3}
+      bandName: adele
+    - bandImage: {fileID: 21300000, guid: bfd7f2d02bcb369458540a3a6e2cea7f, type: 3}
+      bandName: atif aslam
+    instagramSprites:
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
