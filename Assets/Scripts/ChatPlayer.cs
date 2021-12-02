@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -23,11 +24,21 @@ public class ChatElement
 [System.Serializable]
 public class ChatData
 {
+   public ChatData(List<ChatElement> chatElements)
+   {
+      this.ChatElements = chatElements;
+      Reset();
+   }
+   
    [SerializeField]
    private List<ChatElement> ChatElements;
    [SerializeField]
    private int currentElement = -1;
-   
+
+   public void Reset()
+   {
+      currentElement = -1;
+   }
    public void OnComplete()
    {
       Debug.Log($"Called on complete for this chatData {this}");
@@ -46,21 +57,72 @@ public class ChatData
 
 public class ChatPlayer : MonoBehaviour
 {
+   [SerializeField] private AudioClip sentSFX;
+   [SerializeField] private AudioClip receivedSFX;
+   [SerializeField] private AudioClip typingSFX;
+   
+   [SerializeField] private AudioSource sentSource;
+   [SerializeField] private AudioSource receivedSource;
+   [SerializeField] private AudioSource typingSource;
+
+   public void PlaySent()
+   {
+      sentSource.Play();
+      messageReceivedAudioSource.clip = sentSFX;
+      messageReceivedAudioSource.Play();
+   }
+   
+   public void PlayReceived()
+   {
+      receivedSource.Play();
+
+      messageReceivedAudioSource.clip = receivedSFX;
+      messageReceivedAudioSource.Play();
+   }
+
+   public IEnumerator TypingRoutine(float typingWait)
+   {
+      PlayTyping(true);
+      yield return new WaitForSeconds(typingWait);
+      PlayTyping(false);
+   }
+   public void PlayTyping(bool play)
+   {
+      if (play)
+      {
+         
+         typingSource.Play();
+
+         messageReceivedAudioSource.clip = typingSFX;
+         messageReceivedAudioSource.Play();         
+      }
+      else
+      {
+         typingSource.Stop();
+
+         messageReceivedAudioSource.Stop();
+      }
+   }
+   
+   
    [SerializeField]
    private AudioSource messageReceivedAudioSource;
 
    [SerializeField] private float soundPreponeTime = 0.3f;
-   public void PlayMessageReceivedAudio()
-   {
-      messageReceivedAudioSource.Play();
-   }
    
    [SerializeField] private GameObject typingGameObject;
-   [SerializeField] private ChatData _chatData;
+   [SerializeField] public ChatData _chatData;
    [SerializeField] private ChatWindow _chatWindow;
-   [SerializeField] private bool isChatBeingPlayed = false;
 
-   private void Start()
+   private Coroutine chatRoutine;
+
+   private void OnDisable()
+   {
+      _chatData.Reset();
+      if (chatRoutine != null) StopCoroutine(chatRoutine);
+   }
+
+   private void OnEnable()
    {
       Play(_chatData);
    }
@@ -68,8 +130,7 @@ public class ChatPlayer : MonoBehaviour
    private void Play(ChatData chatData)
    {
       _chatData = chatData;
-      isChatBeingPlayed = true;
-      StartCoroutine(ChatEnumerator());
+      chatRoutine = StartCoroutine(ChatEnumerator());
    }
 
    private void ShowTyping(ChatElement chatElement)
@@ -89,8 +150,10 @@ public class ChatPlayer : MonoBehaviour
       chatRect.anchoredPosition = position;
       
       typingGameObject.SetActive(true);
+      PlayTyping(true);
       yield return new WaitForSeconds(chatElement.GetTypingWait());
       typingGameObject.SetActive(false);
+      PlayTyping(false);
    }
    
    private IEnumerator ChatEnumerator()
@@ -101,10 +164,17 @@ public class ChatPlayer : MonoBehaviour
       ShowTyping(nextChatElement);
 
       yield return new WaitForSeconds(nextChatElement.GetWaitBeforeNextChat() - soundPreponeTime);
-      if(!nextChatElement.GetIsUserOwnedChat()) PlayMessageReceivedAudio();
+      if (!nextChatElement.GetIsUserOwnedChat())
+      {
+         PlayReceived();
+      }
+      else
+      {
+         PlaySent();
+      }
       yield return new WaitForSeconds(soundPreponeTime);
       
       _chatWindow.PlayElement(nextChatElement,typingGameObject);
-      StartCoroutine(ChatEnumerator());
+      chatRoutine = StartCoroutine(ChatEnumerator());
    }
 }

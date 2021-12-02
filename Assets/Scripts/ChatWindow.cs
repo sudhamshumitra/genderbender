@@ -9,9 +9,22 @@ public class ChatWindow : MonoBehaviour
     [SerializeField] private ChatPresetsScriptableObject _chatPresetsScriptableObject;
     [SerializeField] private float lastChatHeight;
     [SerializeField] private float lastChatPositionY;
-    [SerializeField] private TextMeshProUGUI ufui;
-    
-    private void Start()
+
+    private void OnDisable()
+    {
+        lastChatHeight = 0;
+        lastChatPositionY = -20;
+        
+        int childs = transform.childCount;
+        for (int i = childs - 1; i >= 0; i--) {
+            if (transform.GetChild(i).gameObject.name != "ChatTyping")
+            {
+                GameObject.DestroyImmediate( transform.GetChild( i ).gameObject );
+            }
+        }
+    }
+
+    private void OnEnable()
     {
         lastChatPositionY = _chatPresetsScriptableObject.ChatStartYPosition;
     }

@@ -23,7 +23,7 @@ MonoBehaviour:
   MaxCharactersInALine: 27
   ChatStartYPosition: 20
   CornerRound: 15
-  ownerChatColor: {r: 0, g: 0, b: 0, a: 1}
+  ownerChatColor: {r: 0.39607844, g: 0.7176471, b: 0.7882353, a: 1}
   otherChatColor: {r: 0, g: 0, b: 0, a: 1}
   ownerTextColor: {r: 1, g: 1, b: 1, a: 1}
   otherTextColor: {r: 1, g: 1, b: 1, a: 1}

@@ -13,143 +13,132 @@ MonoBehaviour:
   m_Name: ChatProfile
   m_EditorClassIdentifier: 
   CardDataCollection:
-  - profileName: Yash
-    coverSprite: {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    coverText: Yash Jain, 25
-    aboutText: Codes for bread, <br>Overconfident about my half-baked culinary skills,
-      <br>Navigating the jigsaw of life, <br>In a committed relationship, shopping
-      for friends here in the new city
+  - profileName: Kritika
+    coverSprite: {fileID: 21300000, guid: f37c57388cdb2704da98b5e2e69c9402, type: 3}
+    coverOffset: {x: 0, y: 224, z: 780, w: 1386}
+    coverText: Kritika, 26
+    aboutText: "Graphic designer. I live in and off of fandoms, and it might look
+      like I\u2019m always in between jobs. <br>"
     basicsAndInterests:
-    - bandImage: {fileID: 21300000, guid: e019cd8c6a958a74bb226a0fd85030d6, type: 3}
-      bandName: height 6'
-    - bandImage: {fileID: 21300000, guid: 07d868e0fd2a23942bd04c6dffb76ed7, type: 3}
-      bandName: wt 72
-    - bandImage: {fileID: 21300000, guid: 60cfd84ae231a4943b3f0f6cf0dcf409, type: 3}
-      bandName: politics left
-    - bandImage: {fileID: 21300000, guid: b31073eee0a30d44d88a0164ab644996, type: 3}
-      bandName: feminist-ally
-    - bandImage: {fileID: 21300000, guid: 54af60d343d3e3b458ad7e97dd60dd04, type: 3}
-      bandName: alcohol socially
-    sprite2: {fileID: 21300000, guid: 91f001e41c59e1544a01b124dc02d437, type: 3}
-    spotifyItems:
-    - bandImage: {fileID: 21300000, guid: 5a984bff39e031944bdd8fc5ae443bd8, type: 3}
-      bandName: adele
-    - bandImage: {fileID: 21300000, guid: bfd7f2d02bcb369458540a3a6e2cea7f, type: 3}
-      bandName: atif aslam
-    instagramSprites:
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-  - profileName: Yash
-    coverSprite: {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    coverText: Yash Jain, 2
-    aboutText: Codes for bread, <br>Overconfident about my half-baked culinary skills,
-      <br>Navigating the jigsaw of life, <br>In a committed relationship, shopping
-      for friends here in the new city
+    - bandImage: {fileID: 21300000, guid: c61fa890904148944b9cf44724376222, type: 3}
+      bandName: fantasy
+    - bandImage: {fileID: 21300000, guid: 23f4a19a9adcf1d4ab5a37f0767bac70, type: 3}
+      bandName: Sci-fi
+    - bandImage: {fileID: 21300000, guid: 31f60cf657fc36049a1b4a72440c1e12, type: 3}
+      bandName: Baking
+    - bandImage: {fileID: 21300000, guid: 5d9517baaa89dbd4eab9c76107250e4b, type: 3}
+      bandName: staycations
+    profileImages:
+    - profileText: 
+      content: {fileID: 21300000, guid: 553714eadfe322746892e58e4201d4f7, type: 3}
+      position: 4
+      xywh: {x: 0, y: 0, z: 1040, w: 780}
+    - profileText: 
+      content: {fileID: 21300000, guid: 161a4150c48f2004ca8989d554bc4e2a, type: 3}
+      position: 7
+      xywh: {x: 0, y: 0, z: 720, w: 1130}
+    spotifyItems: []
+    instagramSprites: []
+    changeSpritesInComplete:
+    - profileText: Abhijit Shopping Area
+      content: {fileID: 21300000, guid: b2f5fb1ae24face418e57d91694ee822, type: 3}
+      position: 0
+      xywh: {x: 0, y: 0, z: 700, w: 700}
+    - profileText: Abhijit Change Screen
+      content: {fileID: 21300000, guid: c44e1350d48b00c4abfd311340716b3a, type: 3}
+      position: 0
+      xywh: {x: 0, y: 0, z: 700, w: 700}
+    ChangeBgSprites: []
+    prompts:
+    - promptLine: "I will never shut up about\u2026"
+      promptAnswer: The porn ban was the downfall of tumblr
+      promptPosition: 5
+    - promptLine: Together we could get...
+      promptAnswer: Charcuterie board. Or rasam rice
+      promptPosition: 6
+    - promptLine: "I\u2019m still not over\u2026"
+      promptAnswer: How GoT ended, where the writers at
+      promptPosition: 8
+  - profileName: Abhijit
+    coverSprite: {fileID: 21300000, guid: 008223be0c70e514c8e7eea3b84438d0, type: 3}
+    coverOffset: {x: 21.9, y: 0, z: 845, w: 1052}
+    coverText: Abhijit, 28
+    aboutText: Consultant at Big Four
     basicsAndInterests:
-    - bandImage: {fileID: 21300000, guid: e019cd8c6a958a74bb226a0fd85030d6, type: 3}
-      bandName: height 6'
-    - bandImage: {fileID: 21300000, guid: 07d868e0fd2a23942bd04c6dffb76ed7, type: 3}
-      bandName: wt 72
-    - bandImage: {fileID: 21300000, guid: 60cfd84ae231a4943b3f0f6cf0dcf409, type: 3}
-      bandName: politics left
-    - bandImage: {fileID: 21300000, guid: b31073eee0a30d44d88a0164ab644996, type: 3}
-      bandName: feminist-ally
-    - bandImage: {fileID: 21300000, guid: 54af60d343d3e3b458ad7e97dd60dd04, type: 3}
-      bandName: alcohol socially
-    sprite2: {fileID: 21300000, guid: 91f001e41c59e1544a01b124dc02d437, type: 3}
-    spotifyItems:
-    - bandImage: {fileID: 21300000, guid: 5a984bff39e031944bdd8fc5ae443bd8, type: 3}
-      bandName: adele
-    - bandImage: {fileID: 21300000, guid: bfd7f2d02bcb369458540a3a6e2cea7f, type: 3}
-      bandName: atif aslam
-    instagramSprites:
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-  - profileName: Yash
-    coverSprite: {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    coverText: Yash Jain, 3
-    aboutText: Codes for bread, <br>Overconfident about my half-baked culinary skills,
-      <br>Navigating the jigsaw of life, <br>In a committed relationship, shopping
-      for friends here in the new city
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Regularly
+    - bandImage: {fileID: 0}
+      bandName: 
+    - bandImage: {fileID: 21300000, guid: 0152397ce7638294ebbf78836c9bc345, type: 3}
+      bandName: Board Games
+    - bandImage: {fileID: 21300000, guid: eabe0b7b1e650ed459981d4798dc5018, type: 3}
+      bandName: Camping
+    - bandImage: {fileID: 21300000, guid: 89194e587ba01d14382d4d84ac234edd, type: 3}
+      bandName: Not sure yet
+    profileImages:
+    - profileText: 
+      content: {fileID: 21300000, guid: 1e5a45957f4ec9c44b7ca704194fd7aa, type: 3}
+      position: 4
+      xywh: {x: 179, y: 0, z: 1618, w: 742}
+    - profileText: 
+      content: {fileID: 21300000, guid: bd571fc7724dc494e89f178c6630b5e3, type: 3}
+      position: 7
+      xywh: {x: 59.9, y: 239.9, z: 1252.553, w: 1566.073}
+    spotifyItems: []
+    instagramSprites: []
+    changeSpritesInComplete: []
+    ChangeBgSprites: []
+    prompts:
+    - promptLine: Change my mind about...
+      promptAnswer: "Blended whiskey. It\u2019s entirely underrated"
+      promptPosition: 5
+    - promptLine: My personal hell is...
+      promptAnswer: 'Trying to explain The Multiverse to the uninitiated '
+      promptPosition: 6
+    - promptLine: "I get way too excited about\u2026"
+      promptAnswer: Airy 2BHKs in Indiranagar
+      promptPosition: 8
+  - profileName: Naveen
+    coverSprite: {fileID: 21300000, guid: 7b29e2e9e6732d94cbc35babab0ee058, type: 3}
+    coverOffset: {x: 14, y: 0, z: 794.2748, w: 792.2434}
+    coverText: Naveen, 28
+    aboutText: Fitness Enthusiast, cat parent
     basicsAndInterests:
-    - bandImage: {fileID: 21300000, guid: e019cd8c6a958a74bb226a0fd85030d6, type: 3}
-      bandName: height 6'
-    - bandImage: {fileID: 21300000, guid: 07d868e0fd2a23942bd04c6dffb76ed7, type: 3}
-      bandName: wt 72
-    - bandImage: {fileID: 21300000, guid: 60cfd84ae231a4943b3f0f6cf0dcf409, type: 3}
-      bandName: politics left
-    - bandImage: {fileID: 21300000, guid: b31073eee0a30d44d88a0164ab644996, type: 3}
-      bandName: feminist-ally
-    - bandImage: {fileID: 21300000, guid: 54af60d343d3e3b458ad7e97dd60dd04, type: 3}
-      bandName: alcohol socially
-    sprite2: {fileID: 21300000, guid: 91f001e41c59e1544a01b124dc02d437, type: 3}
-    spotifyItems:
-    - bandImage: {fileID: 21300000, guid: 5a984bff39e031944bdd8fc5ae443bd8, type: 3}
-      bandName: adele
-    - bandImage: {fileID: 21300000, guid: bfd7f2d02bcb369458540a3a6e2cea7f, type: 3}
-      bandName: atif aslam
-    instagramSprites:
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-  - profileName: Yash
-    coverSprite: {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    coverText: Yash Jain, 4
-    aboutText: Codes for bread, <br>Overconfident about my half-baked culinary skills,
-      <br>Navigating the jigsaw of life, <br>In a committed relationship, shopping
-      for friends here in the new city
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Sometimes
+    - bandImage: {fileID: 21300000, guid: 31f60cf657fc36049a1b4a72440c1e12, type: 3}
+      bandName: Cooking
+    - bandImage: {fileID: 21300000, guid: 0152397ce7638294ebbf78836c9bc345, type: 3}
+      bandName: Video Games
+    - bandImage: {fileID: 0}
+      bandName: 
+    - bandImage: {fileID: 21300000, guid: 89194e587ba01d14382d4d84ac234edd, type: 3}
+      bandName: Not sure yet
+    profileImages: []
+    spotifyItems: []
+    instagramSprites: []
+    changeSpritesInComplete: []
+    ChangeBgSprites: []
+    prompts: []
+  - profileName: Prem
+    coverSprite: {fileID: 21300000, guid: 8f0e1f407b4095e4b89dad5921715ca6, type: 3}
+    coverOffset: {x: 0.00000047684, y: -0.000068665, z: 776.973, w: 776.973}
+    coverText: Prem, 26
+    aboutText: Sales consultant, new in the city
     basicsAndInterests:
-    - bandImage: {fileID: 21300000, guid: e019cd8c6a958a74bb226a0fd85030d6, type: 3}
-      bandName: height 6'
-    - bandImage: {fileID: 21300000, guid: 07d868e0fd2a23942bd04c6dffb76ed7, type: 3}
-      bandName: wt 72
-    - bandImage: {fileID: 21300000, guid: 60cfd84ae231a4943b3f0f6cf0dcf409, type: 3}
-      bandName: politics left
-    - bandImage: {fileID: 21300000, guid: b31073eee0a30d44d88a0164ab644996, type: 3}
-      bandName: feminist-ally
-    - bandImage: {fileID: 21300000, guid: 54af60d343d3e3b458ad7e97dd60dd04, type: 3}
-      bandName: alcohol socially
-    sprite2: {fileID: 21300000, guid: 91f001e41c59e1544a01b124dc02d437, type: 3}
-    spotifyItems:
-    - bandImage: {fileID: 21300000, guid: 5a984bff39e031944bdd8fc5ae443bd8, type: 3}
-      bandName: adele
-    - bandImage: {fileID: 21300000, guid: bfd7f2d02bcb369458540a3a6e2cea7f, type: 3}
-      bandName: atif aslam
-    instagramSprites:
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-  - profileName: Yash
-    coverSprite: {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    coverText: Yash Jain, 5
-    aboutText: Codes for bread, <br>Overconfident about my half-baked culinary skills,
-      <br>Navigating the jigsaw of life, <br>In a committed relationship, shopping
-      for friends here in the new city
-    basicsAndInterests:
-    - bandImage: {fileID: 21300000, guid: e019cd8c6a958a74bb226a0fd85030d6, type: 3}
-      bandName: height 6'
-    - bandImage: {fileID: 21300000, guid: 07d868e0fd2a23942bd04c6dffb76ed7, type: 3}
-      bandName: wt 72
-    - bandImage: {fileID: 21300000, guid: 60cfd84ae231a4943b3f0f6cf0dcf409, type: 3}
-      bandName: politics left
-    - bandImage: {fileID: 21300000, guid: b31073eee0a30d44d88a0164ab644996, type: 3}
-      bandName: feminist-ally
-    - bandImage: {fileID: 21300000, guid: 54af60d343d3e3b458ad7e97dd60dd04, type: 3}
-      bandName: alcohol socially
-    sprite2: {fileID: 21300000, guid: 91f001e41c59e1544a01b124dc02d437, type: 3}
-    spotifyItems:
-    - bandImage: {fileID: 21300000, guid: 5a984bff39e031944bdd8fc5ae443bd8, type: 3}
-      bandName: adele
-    - bandImage: {fileID: 21300000, guid: bfd7f2d02bcb369458540a3a6e2cea7f, type: 3}
-      bandName: atif aslam
-    instagramSprites:
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
-    - {fileID: 21300000, guid: 291c5f6e0db0e6e478005aa7c7e691ee, type: 3}
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Never
+    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
+      bandName: Crime Thriller
+    - bandImage: {fileID: 21300000, guid: cfc0baec8691c4d4dafbc8bd2702f7d5, type: 3}
+      bandName: 'Mystery '
+    - bandImage: {fileID: 0}
+      bandName: 
+    - bandImage: {fileID: 21300000, guid: 89194e587ba01d14382d4d84ac234edd, type: 3}
+      bandName: "Don\u2019t want"
+    profileImages: []
+    spotifyItems: []
+    instagramSprites: []
+    changeSpritesInComplete: []
+    ChangeBgSprites: []
+    prompts: []
