@@ -50,14 +50,14 @@ public class ChatWindow : MonoBehaviour
     {
         var messageLines = message.Split(new string[] {"<br>"}, StringSplitOptions.None);
         var numberOfLines = messageLines.Length - 1;
-        foreach (var messageLine in messageLines)
+        var lineChar = message.Length;
+        var totalChar = lineChar;
+        while (totalChar >= _chatPresetsScriptableObject.MaxCharactersInALine)
         {
-            if (messageLine.Length > _chatPresetsScriptableObject.MaxCharactersInALine)
-            {
-                numberOfLines++;
-            }
+            totalChar -= _chatPresetsScriptableObject.MaxCharactersInALine;
+            numberOfLines++;
         }
-
+        
         return numberOfLines;
     }
 
@@ -85,6 +85,7 @@ public class ChatWindow : MonoBehaviour
     {
         var content = chatElement.GetContent();
         var width = GetMaximumNumberOfCharactersInALine(content) * _chatPresetsScriptableObject.WidthPerCharacter;
+        
         var height = GetNumberOfLinesInMessage(content) * _chatPresetsScriptableObject.HeightPerLine;
         if (width > _chatPresetsScriptableObject.MaxWidthOfMessageItem)
             width = _chatPresetsScriptableObject.MaxWidthOfMessageItem;
@@ -119,6 +120,7 @@ public class ChatWindow : MonoBehaviour
     {
         var contentSize = GetContentSize(chatElement);
         var newChatElement = Instantiate(chatItem, chatParent.transform, true);
+        newChatElement.gameObject.transform.localScale = new Vector3(1, 1, 1);
         var chatRect = newChatElement.GetComponent<RectTransform>();
 
         SetProceduralUICorners(chatElement.GetIsUserOwnedChat(), newChatElement.GetComponent<FreeModifier>());
@@ -128,10 +130,13 @@ public class ChatWindow : MonoBehaviour
             chatElement.GetIsUserOwnedChat()
                 ? _chatPresetsScriptableObject.ownerChatColor
                 : _chatPresetsScriptableObject.otherChatColor;
-        chatRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, contentSize.width);
-        chatRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, contentSize.height);
 
-        newChatElement.SetSize(contentSize.width - 30, contentSize.height - 15);
+        chatRect.sizeDelta = new Vector2(contentSize.width, contentSize.height);
+        
+        // chatRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, contentSize.width);
+        // chatRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, contentSize.height);
+
+        newChatElement.SetSize(contentSize.width, contentSize.height);
         newChatElement.SetText(chatElement.GetContent());
 
         var chatNewPosition = GetNewElementPosition(chatElement.GetIsUserOwnedChat());

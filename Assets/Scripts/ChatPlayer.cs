@@ -17,8 +17,8 @@ public class ChatElement
 
    public bool GetIsUserOwnedChat() => isUserOwnedChat;
    public string GetContent() => chatContent;
-   public float GetTypingWait() => waitWhileTyping;
-   public float GetWaitBeforeNextChat() => waitBeforeSending;
+   public float GetTypingWait() => 2.5f; // waitWhileTyping;
+   public float GetWaitBeforeNextChat() => 3f; //waitBeforeSending;
 }
 
 [System.Serializable]
@@ -137,6 +137,21 @@ public class ChatPlayer : MonoBehaviour
    {
       StartCoroutine(RunTypingEnumerator(chatElement));
    }
+
+   private void TypingActive(ChatElement chatElement, bool status)
+   {
+      var chatRect = typingGameObject.GetComponent<RectTransform>();
+      chatRect.pivot = chatElement.GetIsUserOwnedChat() ? new Vector2(1, 1) : new Vector2(0, 1);
+      var chatNewPosition = _chatWindow.GetNewElementPosition(chatElement.GetIsUserOwnedChat());
+      _chatWindow.SetProceduralUICorners(chatElement.GetIsUserOwnedChat(), typingGameObject.GetComponent<FreeModifier>());
+      
+      var position = chatRect.position;
+      position.Set(chatNewPosition.x, chatNewPosition.y, position.z);
+      chatRect.anchoredPosition = position;
+      
+      typingGameObject.SetActive(status);
+      PlayTyping(status);
+   }
    
    private IEnumerator RunTypingEnumerator(ChatElement chatElement)
    {
@@ -158,11 +173,13 @@ public class ChatPlayer : MonoBehaviour
    
    private IEnumerator ChatEnumerator()
    {
+      
       var nextChatElement = _chatData.GetNextElement();
+      // if (nextChatElement.GetContent() == "") nextChatElement = _chatData.GetNextElement();
       if (nextChatElement == null) yield break;
       
-      ShowTyping(nextChatElement);
-
+      //ShowTyping(nextChatElement);
+      TypingActive(nextChatElement, true);
       yield return new WaitForSeconds(nextChatElement.GetWaitBeforeNextChat() - soundPreponeTime);
       if (!nextChatElement.GetIsUserOwnedChat())
       {
@@ -174,6 +191,7 @@ public class ChatPlayer : MonoBehaviour
       }
       yield return new WaitForSeconds(soundPreponeTime);
       
+      TypingActive(nextChatElement, false);
       _chatWindow.PlayElement(nextChatElement,typingGameObject);
       chatRoutine = StartCoroutine(ChatEnumerator());
    }

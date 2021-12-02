@@ -32,25 +32,39 @@ public class GeneralScreenBehaviour : MonoBehaviour
         StartScreen();
     }
 
+    [SerializeField]
+    private float flipDuration;
+    [SerializeField]
+    private Image targetImage;
+
+    private Coroutine flippingRoutine;
     public void FlipPrompt()
     {
         if (!isAlreadyFlipped)
         {
+            isAlreadyFlipped = true;
+            promptResultantText.transform.parent.GetComponent<Button>().interactable = false;
+
             originalLineText.gameObject.SetActive(false);
             originalAnswerText.gameObject.SetActive(false);
             promptResultantText.gameObject.SetActive(true);
+            topText.text = string.Empty;
+            promptResultantText.text = string.Empty;
             
-            isAlreadyFlipped = true;
-            promptResultantText.text = updatedPromptText;
-            topText.color = new Color(topText.color.r, topText.color.g, topText.color.b, 0);
-            topText.text = updatedFadeInText;
-            TextFadein();
-            promptResultantText.transform.parent.GetComponent<Button>().interactable = false;
+            flippingRoutine = StartCoroutine(FlipImage(flipDuration, targetImage,() =>
+            {
+                promptResultantText.text = updatedPromptText;
+                topText.color = new Color(topText.color.r, topText.color.g, topText.color.b, 0);
+                topText.text = updatedFadeInText;
+                TextFadein();
+            }));
+
         }
     }
 
     private void StartScreen()
     {
+        
         originalLineText.gameObject.SetActive(true);
         originalAnswerText.gameObject.SetActive(true);
         promptResultantText.gameObject.SetActive(false);
@@ -63,9 +77,30 @@ public class GeneralScreenBehaviour : MonoBehaviour
         topText.text = originalFadeInText;
         TextFadein();
         isAlreadyFlipped = false;
+        if (flippingRoutine != null)
+        {
+            StopCoroutine(flippingRoutine);
+        }
+        targetImage.transform.localRotation = Quaternion.identity;
         promptResultantText.transform.parent.GetComponent<Button>().interactable = true;
     }
 
+    private IEnumerator FlipImage(float t, Image i, Action onComplete)
+    {
+        var eulerAngle = i.transform.localRotation.eulerAngles;
+
+        while (eulerAngle.y < 180.0f)
+        {
+            eulerAngle = i.transform.localRotation.eulerAngles;
+            i.transform.localRotation =
+                Quaternion.Euler(eulerAngle.x, eulerAngle.y + (Time.deltaTime / t) * (180.0f), eulerAngle.z);
+            yield return null;
+        }
+
+        i.transform.localRotation = Quaternion.Euler(0, 0, 0);
+        onComplete();
+    }
+    
     private void TextFadeout()
     {
         StartCoroutine(FadeTextToZeroAlpha(fadeinTime, topText));

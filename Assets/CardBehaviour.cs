@@ -24,6 +24,9 @@ public struct PromptData
 
 public class CardBehaviour : MonoBehaviour
 {
+
+    [SerializeField] private GameObject aboutParent;
+    
     [SerializeField] private GameObject promptPrefab;
     [SerializeField] private GameObject imageItemPrefab;
     [SerializeField] private GameObject bandItemPrefab;
@@ -108,22 +111,21 @@ public class CardBehaviour : MonoBehaviour
         profileCoverImage.rectTransform.sizeDelta = new Vector2(cardItem.coverOffset.z, cardItem.coverOffset.w);
         profileCoverImage.transform.localPosition = new Vector2(cardItem.coverOffset.x, cardItem.coverOffset.y);
 
-        // aboutText.autoSizeTextContainer = true;
+        //aboutText.autoSizeTextContainer = true;
         instagramHeader.text = cardItem.profileName + "'s Instagram";
         aboutText.text = cardItem.aboutText;
-        var aboutRect = aboutText.rectTransform.rect;
         var area = aboutText.preferredWidth * aboutText.preferredHeight;
-
-        aboutText.rectTransform.sizeDelta = new Vector2(0, area / 684.0f);
-        aboutText.rectTransform.sizeDelta = new Vector2(0, aboutText.preferredHeight);
-        var calculatedSize = aboutText.rectTransform.rect;
+        float finalWidth = 685;
+        var finalHeight = area / finalWidth;
+        aboutText.rectTransform.sizeDelta = new Vector2(finalWidth, finalHeight);
         var parent = aboutText.transform.parent;
         var originalSize = parent.GetComponent<RectTransform>().sizeDelta;
-        parent.GetComponent<RectTransform>().sizeDelta = new Vector2(originalSize.x, aboutText.preferredHeight);
-        //
-        var parentOriginalSize = parent.transform.parent.GetComponent<RectTransform>().sizeDelta;
-        parent.transform.parent.GetComponent<RectTransform>().sizeDelta =
-            new Vector2(parentOriginalSize.x, aboutText.preferredHeight);
+
+        parent.GetComponent<RectTransform>().sizeDelta =
+            new Vector2(originalSize.x, finalHeight);
+        var parentOriginalSize = aboutParent.GetComponent<RectTransform>().sizeDelta;
+        aboutParent.GetComponent<RectTransform>().sizeDelta =
+            new Vector2(parentOriginalSize.x, finalHeight);
 
         DestroyChildren(basicsAndInterestParent1);
         DestroyChildren(basicsAndInterestParent2);

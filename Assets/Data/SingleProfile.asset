@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb9206ffc974d15a810a13f1d6f69f2, type: 3}
+  m_Name: SingleProfile
+  m_EditorClassIdentifier: 
+  CardDataCollection:
+  - profileName: Kritika
+    coverSprite: {fileID: 21300000, guid: f37c57388cdb2704da98b5e2e69c9402, type: 3}
+    coverOffset: {x: 0, y: 224, z: 780, w: 1386}
+    coverText: Kritika, 26
+    aboutText: "Graphic designer. I live in and off of fandoms, and it might look
+      like I\u2019m always in between jobs. <br>"
+    basicsAndInterests:
+    - bandImage: {fileID: 21300000, guid: c61fa890904148944b9cf44724376222, type: 3}
+      bandName: fantasy
+    - bandImage: {fileID: 21300000, guid: 23f4a19a9adcf1d4ab5a37f0767bac70, type: 3}
+      bandName: Sci-fi
+    - bandImage: {fileID: 21300000, guid: 31f60cf657fc36049a1b4a72440c1e12, type: 3}
+      bandName: Baking
+    - bandImage: {fileID: 21300000, guid: 5d9517baaa89dbd4eab9c76107250e4b, type: 3}
+      bandName: staycations
+    profileImages:
+    - profileText: 
+      content: {fileID: 21300000, guid: 553714eadfe322746892e58e4201d4f7, type: 3}
+      position: 4
+      xywh: {x: 0, y: 0, z: 1040, w: 780}
+    - profileText: 
+      content: {fileID: 21300000, guid: 161a4150c48f2004ca8989d554bc4e2a, type: 3}
+      position: 7
+      xywh: {x: 0, y: 0, z: 720, w: 1130}
+    spotifyItems: []
+    instagramSprites: []
+    changeSpritesInComplete:
+    - profileText: Tap on the image to see what would happen if the background changed
+      content: {fileID: 21300000, guid: b2f5fb1ae24face418e57d91694ee822, type: 3}
+      position: 0
+      xywh: {x: 0, y: 560, z: 887, w: 1935}
+    - profileText: "Kritika, like many of us, isn\u2019t impressed with selfies,
+        or the everyday spaces we occupy. It\u2019s not niche enough, well made enough,
+        not DSLR enough, well thought enough, not travelled enough. She finds interest
+        in the whisky connoisseur of course."
+      content: {fileID: 21300000, guid: c44e1350d48b00c4abfd311340716b3a, type: 3}
+      position: 0
+      xywh: {x: 0, y: 164, z: 1042, w: 1042}
+    ChangeBgSprites: []
+    prompts:
+    - promptLine: "I will never shut up about\u2026"
+      promptAnswer: The porn ban was the downfall of tumblr
+      promptPosition: 5
+    - promptLine: Together we could get...
+      promptAnswer: Charcuterie board. Or rasam rice
+      promptPosition: 6
+    - promptLine: "I\u2019m still not over\u2026"
+      promptAnswer: How GoT ended, where the writers at
+      promptPosition: 8

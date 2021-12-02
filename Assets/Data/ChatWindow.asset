@@ -19,8 +19,8 @@ MonoBehaviour:
   ChatElementLeftPosX: 20
   ChatElementRightPosX: 810
   WidthPerCharacter: 20
-  HeightPerLine: 60
-  MaxCharactersInALine: 27
+  HeightPerLine: 47.65
+  MaxCharactersInALine: 18
   ChatStartYPosition: 20
   CornerRound: 15
   ownerChatColor: {r: 0.39607844, g: 0.7176471, b: 0.7882353, a: 1}

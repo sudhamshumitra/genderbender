@@ -3,7 +3,7 @@
 public class ChatItem : MonoBehaviour
 {
     [SerializeField]
-    private TMPro.TextMeshProUGUI chatText;
+    public TMPro.TextMeshProUGUI chatText;
 
     public void SetText(string message)
     {
@@ -13,7 +13,8 @@ public class ChatItem : MonoBehaviour
     public void SetSize(float width, float height)
     {
         var rectTransform = chatText.GetComponent<RectTransform>();
-        rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, width);
-        rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
+        rectTransform.sizeDelta = new Vector2(width, height);
+        // rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, width);
+        // rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
     }    
 }

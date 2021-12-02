@@ -413,7 +413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3150922293247255360}
   - component: {fileID: 3150922293247255362}
-  - component: {fileID: 3150922293247255361}
+  - component: {fileID: 3922346950036739570}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -435,10 +435,10 @@ RectTransform:
   m_Father: {fileID: 3150922294457978457}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 94.13995}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 6.8, y: 0}
+  m_SizeDelta: {x: 671.39404, y: 160}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &3150922293247255362
 CanvasRenderer:
@@ -448,7 +448,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3150922293247255423}
   m_CullTransparentMesh: 0
---- !u!114 &3150922293247255361
+--- !u!114 &3922346950036739570
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: about text space
+  m_text: asdasdasdadasdasdasd
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45a85461fefc0b34ea85c31560c9c7d1, type: 2}
   m_sharedMaterial: {fileID: -5010032516093890247, guid: 45a85461fefc0b34ea85c31560c9c7d1,
@@ -496,8 +496,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -536,11 +536,11 @@ MonoBehaviour:
   m_pageToDisplay: 1
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
-    textComponent: {fileID: 3150922293247255361}
-    characterCount: 16
+    textComponent: {fileID: 3922346950036739570}
+    characterCount: 20
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -1304,7 +1304,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 685, y: 195}
+  m_SizeDelta: {x: 685, y: 160}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &3150922294471082514
 GameObject:
@@ -1411,7 +1411,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 828, y: 45.91}
+  m_SizeDelta: {x: 828, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3150922294718047564
 GameObject:
@@ -1900,6 +1900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87991776434a35840ac7f79a880f8340, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  aboutParent: {fileID: 3150922294652230449}
   promptPrefab: {fileID: 8328399810716599437, guid: 5a39e78cba79df24cb322fc542be7fa4,
     type: 3}
   imageItemPrefab: {fileID: 4641021459675906656, guid: 2af56a0b8f327174ab905359fdb55366,
@@ -1919,7 +1920,7 @@ MonoBehaviour:
   instagramSpace: {fileID: 6576389116997981344}
   profileCoverText: {fileID: 7109835856143063810}
   profileCoverImage: {fileID: 2893945499126058861}
-  aboutText: {fileID: 3150922293247255361}
+  aboutText: {fileID: 3922346950036739570}
   instagramHeader: {fileID: 5613667598564156564}
   basicsAndInterestParent1: {fileID: 3150922293188772481}
   basicsAndInterestParent2: {fileID: 3150922293066323047}
