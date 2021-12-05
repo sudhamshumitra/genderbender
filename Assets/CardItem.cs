@@ -13,7 +13,6 @@ public struct CardItem
     public ProfileImage[] profileImages;
     public ImageItem[] spotifyItems;
     public Sprite[] instagramSprites;
-    public ProfileImage[] changeSpritesInComplete;
-    public Sprite[] ChangeBgSprites;
+    public ExperienceDataScriptableObject experienceData;
     public PromptData[] prompts;
 }

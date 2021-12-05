@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb9206ffc974d15a810a13f1d6f69f2, type: 3}
-  m_Name: ChatProfile
+  m_Name: ChatProfile 2
   m_EditorClassIdentifier: 
   CardDataCollection:
   - profileName: Kritika
@@ -39,16 +39,7 @@ MonoBehaviour:
       xywh: {x: 0, y: 0, z: 720, w: 1130}
     spotifyItems: []
     instagramSprites: []
-    changeSpritesInComplete:
-    - profileText: Abhijit Shopping Area
-      content: {fileID: 21300000, guid: b2f5fb1ae24face418e57d91694ee822, type: 3}
-      position: 0
-      xywh: {x: 0, y: 560, z: 887, w: 1935}
-    - profileText: CHanged photo version
-      content: {fileID: 21300000, guid: c44e1350d48b00c4abfd311340716b3a, type: 3}
-      position: 0
-      xywh: {x: 0, y: 164, z: 1042, w: 1042}
-    ChangeBgSprites: []
+    experienceData: {fileID: 0}
     prompts:
     - promptLine: "I will never shut up about\u2026"
       promptAnswer: The porn ban was the downfall of tumblr
@@ -86,8 +77,7 @@ MonoBehaviour:
       xywh: {x: 59.9, y: 239.9, z: 1252.553, w: 1566.073}
     spotifyItems: []
     instagramSprites: []
-    changeSpritesInComplete: []
-    ChangeBgSprites: []
+    experienceData: {fileID: 0}
     prompts:
     - promptLine: Change my mind about...
       promptAnswer: "Blended whiskey. It\u2019s entirely underrated"
@@ -117,8 +107,7 @@ MonoBehaviour:
     profileImages: []
     spotifyItems: []
     instagramSprites: []
-    changeSpritesInComplete: []
-    ChangeBgSprites: []
+    experienceData: {fileID: 0}
     prompts: []
   - profileName: Prem
     coverSprite: {fileID: 21300000, guid: 8f0e1f407b4095e4b89dad5921715ca6, type: 3}
@@ -139,6 +128,5 @@ MonoBehaviour:
     profileImages: []
     spotifyItems: []
     instagramSprites: []
-    changeSpritesInComplete: []
-    ChangeBgSprites: []
+    experienceData: {fileID: 0}
     prompts: []
