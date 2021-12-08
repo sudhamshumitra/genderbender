@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8f9acee58ee4f1cb36b2d38e3ab5866, type: 3}
+  m_Name: Experience_Anusha
+  m_EditorClassIdentifier: 
+  selectedProfileName: Neil
+  selectedProfileDP:
+    profileText: 
+    content: {fileID: 21300000, guid: 0525ac5c4c3d00547bafd0cfd7d2a775, type: 3}
+    position: 5
+    xywh: {x: 0, y: -56.8, z: 130.1047, w: 203.6934}
+  pageType:
+  - pageType: 1
+    mapIndex: 0
+  - pageType: 5
+    mapIndex: 0
+  - pageType: 1
+    mapIndex: 0
+  - pageType: 1
+    mapIndex: 1
+  - pageType: 1
+    mapIndex: 2
+  - pageType: 4
+    mapIndex: 0
+  - pageType: 1
+    mapIndex: 3
+  - pageType: 6
+    mapIndex: 0
+  - pageType: 1
+    mapIndex: 5
+  - pageType: 7
+    mapIndex: 0
+  - pageType: 1
+    mapIndex: 7
+  - pageType: 1
+    mapIndex: 8
+  - pageType: 1
+    mapIndex: 9
+  - pageType: 7
+    mapIndex: 1
+  - pageType: 1
+    mapIndex: 10
+  - pageType: 8
+    mapIndex: 0
+  - pageType: 0
+    mapIndex: 0
+  directionScreens:
+  - '//CasteNoBar features characters played by kind friends. These profiles are
+    works of fiction. What you will see are essentially a bunch of stories, all woven
+    together from real experiences. '
+  - Now, you've chosen Anusha's profile. <br><br>Click on the bottom right arrow
+    to experience her narrative.
+  - Tap on the bottom right arrow to look more closely at the interests Anusha presents
+    on the dating app
+  - "A glimpse of Anusha\u2019s experience as she looks through different profiles.
+    Click on the bottom right arrow to continue."
+  - "Tap on the photo in the next screen to see how it could have been different\u2026
+    and if Anusha would swipe right then. "
+  - "But what stories do we, savarnas, find interesting? The kind that fits into
+    our aesthetic, something we aspire for. Not something we\u2019ve already experienced
+    many years ago thanks to our quick upward mobility."
+  - "It\u2019s no surprise that Neil and Anusha found each other on the app, the
+    algorithm did its job. Now they do theirs..."
+  - "Invested in social issues far away from our realities, turning to white icons
+    who offer alternative discourses\u2026 having already consumed content that problematizes
+    something we enjoyed as children\u2026 all traits of progressive individuals. "
+  - We even deliberately bring up social issues we support, to see if the match has
+    similar values. But how is that ever going to be enough to understand our location
+    in relation to our society?
+  - This is just a glimpse! <br><br>To experience other narratives..<br><br>Click
+    to visit www.castenobar.me
+  - "Anusha and Neil keep talking though, since they relate with each other on so
+    many things\u2026 Black Lives Matter and Feminism, the importance of public transport,
+    how social science research needs funding..."
+  - Would you mind?
+  GeneralScreenDataCollection: []
+  spriteChange:
+  - profileImages:
+    - profileText: Tap on the image to see what it reveals.
+      content: {fileID: 21300000, guid: 3d1a191b2e608e44a97c00741483b63d, type: 3}
+      position: 5
+      xywh: {x: 0, y: -140.9, z: 593.1, w: 546.3}
+    - profileText: Chances of Anusha finding a selfie impressive is quite low. We
+        look for a story behind pictures, an activity or a setting.
+      content: {fileID: 21300000, guid: 10d9e4b80e4342e4b8dd628435c8ad1c, type: 3}
+      position: 5
+      xywh: {x: 0, y: -113.1, z: 617.4, w: 615.8}
+  chatData:
+  - chatElements:
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Hello there\u2026 how goes?"
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Great, got done some reading.
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: 'Btw there is nothing sinful about the priest. Or anything about
+        the show. '
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Bless Phoebe WB, nobody needs to grow up with problematic stuff
+        like Friends anymore
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: If I see one more profile that says they quote too much from a
+        racist-sexist show!!
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "I\u2019m toh going through yet another Ghibli phase. Away from
+        all nonsense."
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Y'know the wide blue eyes, blond hair in anime is a consequence
+        of Eurocentrism right?
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Ya ya, at least not some white man writing it.
+      isUserOwnedChat: 1
+  - chatElements:
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "It\u2019s ridiculous, how they\u2019re treating students in Delhi"
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "This was bound to happen\u2026 bringing them back to power\u2026
+        voters are ridiculous tbh"
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "They\u2019ve gone and arrested Azad all over again"
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Twitter is a shit show. He\u2019s cute though, yea?"
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: SO. HOT.
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: hehe, I am agree
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Hahaha. But leave the buses alone, janta\u2026 what did they
+        ever do to you"
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: I am agree again
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Hey, I hope you don\u2019t mind\u2026 I\u2019d rather chat on
+        whatsapp. You?"
+      isUserOwnedChat: 0
+  spotifyData:
+    bandInfo:
+    - metaInfo: "Don\u2019t we train ourselves in what\u2019s a polished, intellectual
+        interest to have\u2026 and then heavily guard it, co opt the arts to fit
+        a monolithic aesthetic"
+      artistName: Museums & galleries
+      artistImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+    - metaInfo: To be in theatre, even more than to watch theatre, in many metro
+        cities is often to be born into the circles or to break through oppressive
+        caste gatekeeping
+      artistName: Theatre
+      artistImage: {fileID: 21300000, guid: 5ae86d7f7a6a1c94fa051aec4bef8ed0, type: 3}
+    - metaInfo: "Invested in political movements of the West because that\u2019s
+        what we consume, disconnected with realities of our own"
+      artistName: Black Lives Matter
+      artistImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+  swipeVideoName: AnushaSwipeVideo

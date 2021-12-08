@@ -71,10 +71,9 @@ public class SwipeManager : MonoBehaviour
          
         _rightObject.gameObject.SetActive(true);
         _leftObject.gameObject.SetActive(true);
-        
- 
-        
-        if (experienceData!=null && ((experienceData.pageType.Count -1) == currentPageNumber))
+
+
+        if (experienceData!=null && ((experienceData.pageType.Count -2) == currentPageNumber))
         {
             _rightObject.gameObject.SetActive(false);   
         }
@@ -135,10 +134,10 @@ public class SwipeManager : MonoBehaviour
         directionScreen.gameObject.SetActive(false);
     }
 
-    private void ShowChatScreen(List<ChatElement> chatElements)
+    private void ShowChatScreen(string profileName, ProfileImage profileDP, List<ChatElement> chatElements)
     {
         TurnOffAllScreens();
-        chatScreen.GetComponent<ChatPlayer>()._chatData = new ChatData(chatElements);
+        chatScreen.GetComponent<ChatPlayer>()._chatData = new ChatData(profileName, profileDP, chatElements);
         chatScreen.gameObject.SetActive(true);
     }
 
@@ -166,7 +165,7 @@ public class SwipeManager : MonoBehaviour
         
         bandScreen
             .GetComponent<BandScreen>()
-            .SetupBandScreen("Pick your bands", spotifyBandInfos);
+            .SetupBandScreen("Drag and drop each “Interest” into the box to see what each of these are composed of. Or what we are composed of. ", spotifyBandInfos);
         
         bandScreen.gameObject.SetActive(true);
     }
@@ -205,7 +204,7 @@ public class SwipeManager : MonoBehaviour
             if (currentPageNumber == 0)
             {
                 ShowDirectionScreen(
-                    "Welcome to //CasteNoBar. <br><br>Click on the arrow key at the bottom to go to the next screen!");
+                    "Welcome to //CasteNoBar. <br><br>We have multiple narratives that you can choose (by 'hearting') and experience..<br><br> Here is a glimpse of what we have for you at www.castenobar.me");
             }
             else
             {
@@ -214,15 +213,10 @@ public class SwipeManager : MonoBehaviour
          }
         else
         {
-            if (currentPageNumber == experienceData.pageType.Count - 1)
-            {
-                ShowFinalScreen();
-                rightBtn.gameObject.SetActive(false);
-            }
-            else
-            {
+
+            
                 restartButton.gameObject.SetActive(false);
-            }
+            
 
             var pageData = experienceData.pageType[currentPageNumber];
             switch (pageData.pageType)
@@ -246,7 +240,12 @@ public class SwipeManager : MonoBehaviour
                     ShowVideoScreen();
                     break;
                 case EPageType.SCREEN_CHAT:
-                    ShowChatScreen(experienceData.chatData[pageData.mapIndex].chatElements);
+                    ShowChatScreen(experienceData.selectedProfileName, experienceData.selectedProfileDP, experienceData.chatData[pageData.mapIndex].chatElements);
+                    break;
+                case EPageType.SCREEN_RESTART:
+                    ShowFinalScreen();
+                    rightBtn.gameObject.SetActive(false);
+                    restartButton.gameObject.SetActive(true);
                     break;
                 case EPageType.NONE:
                     throw new ArgumentOutOfRangeException();

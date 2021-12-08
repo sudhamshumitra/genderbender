@@ -124,19 +124,18 @@ public class ChatWindow : MonoBehaviour
         var chatRect = newChatElement.GetComponent<RectTransform>();
 
         SetProceduralUICorners(chatElement.GetIsUserOwnedChat(), newChatElement.GetComponent<FreeModifier>());
-            
-        chatRect.pivot = chatElement.GetIsUserOwnedChat() ? new Vector2(1, 1) : new Vector2(0, 1);
+
+        chatRect.pivot = chatElement.GetIsUserOwnedChat() ? new Vector2(1, 1f) : new Vector2(0, 1f);
         chatRect.GetComponent<ProceduralImage>().color =
             chatElement.GetIsUserOwnedChat()
                 ? _chatPresetsScriptableObject.ownerChatColor
                 : _chatPresetsScriptableObject.otherChatColor;
 
-        chatRect.sizeDelta = new Vector2(contentSize.width, contentSize.height);
-        
+        chatRect.sizeDelta = new Vector2(contentSize.width + 20, contentSize.height);
         // chatRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, contentSize.width);
         // chatRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, contentSize.height);
 
-        newChatElement.SetSize(contentSize.width, contentSize.height);
+        newChatElement.SetSize(chatElement.GetIsUserOwnedChat(),contentSize.width, contentSize.height);
         newChatElement.SetText(chatElement.GetContent());
 
         var chatNewPosition = GetNewElementPosition(chatElement.GetIsUserOwnedChat());

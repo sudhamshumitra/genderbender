@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8f9acee58ee4f1cb36b2d38e3ab5866, type: 3}
   m_Name: Experience_Abhijit
   m_EditorClassIdentifier: 
+  selectedProfileName: 
+  selectedProfileDP:
+    profileText: 
+    content: {fileID: 0}
+    position: 5
+    xywh: {x: 0, y: 0, z: 0, w: 0}
   pageType:
   - pageType: 1
     mapIndex: 0

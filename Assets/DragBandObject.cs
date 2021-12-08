@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -18,24 +19,34 @@ public class DragBandObject : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
     [SerializeField]
     private Image bandImage;
 
+    [SerializeField] private Image bandArtistImage;
+    [SerializeField] private TextMeshProUGUI bandName;
+
     public void SetupObject(RectTransform targetRectTransform, BandScreen bandScreen, Canvas canvas, SpotifyBandInfo spotifyBandInfo)
     {
         this.isInteractable = true;
         this.canvas = canvas;
         this.bandScreen = bandScreen;
         this.targetRectTransform = targetRectTransform;
-        this._spotifyBandInfo = spotifyBandInfo;
+        this.bandArtistImage.sprite = spotifyBandInfo.artistImage;
+        this.bandName.text = spotifyBandInfo.artistName;
+        _spotifyBandInfo = spotifyBandInfo;
+        transform.GetComponent<RectTransform>().sizeDelta = new Vector2( (40 + bandName.preferredWidth) * 1.1f, 49.5f);
+
     }
     
     private SpotifyBandInfo _spotifyBandInfo;
     
     public void OnDrag(PointerEventData eventData)
     {
+        if (!this.isInteractable) return;
         this.GetComponent<RectTransform>().anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (!this.isInteractable) return;
+        
         originalPosition = this.transform.localPosition;
         bandImage.color = clickedColor;
     }

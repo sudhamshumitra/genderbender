@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8f9acee58ee4f1cb36b2d38e3ab5866, type: 3}
   m_Name: Experience_Prem
   m_EditorClassIdentifier: 
+  selectedProfileName: 
+  selectedProfileDP:
+    profileText: 
+    content: {fileID: 0}
+    position: 5
+    xywh: {x: 0, y: 0, z: 0, w: 0}
   pageType:
   - pageType: 1
     mapIndex: 0
@@ -165,84 +171,6 @@ MonoBehaviour:
       waitWhileTyping: 0
       chatContent: 
       isUserOwnedChat: 0
+  spotifyData:
+    bandInfo: []
   swipeVideoName: KiritkaSwipe
-  chatData1:
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: Do you think single malt is overrated then?
-    isUserOwnedChat: 1
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: It gets its fair share of glory.
-    isUserOwnedChat: 0
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: "No one\u2019s saying blended whisky isn\u2019t glorious."
-    isUserOwnedChat: 1
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: Prices sure are glorious! Give me happy tears.
-    isUserOwnedChat: 1
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: "And it\u2019s a testament to the blender\u2019s art"
-    isUserOwnedChat: 0
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: "It\u2019s far too soon and inappropriate to say this, but you would
-      get along so well with my father."
-    isUserOwnedChat: 1
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: "Haha! We\u2019d be exhausting HIS collection, yes?"
-    isUserOwnedChat: 0
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: "Oh that\u2019s reserved for the innermost circle."
-    isUserOwnedChat: 1
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: "This has been the oddest place to bring up parents but yea, I understand
-      since I\u2019m not even my own father\u2019s inner circle."
-    isUserOwnedChat: 0
-  chatData2:
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: "There there. I\u2019m sure you\u2019ll be initiated someday"
-    isUserOwnedChat: 1
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: "THE circle, since we\u2019re called p(a)i "
-    isUserOwnedChat: 0
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: Hahaha! Pai? Where are you from btw?
-    isUserOwnedChat: 1
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: "Dad\u2019s from Dharwad... I grew up pretty much in Bangalore"
-    isUserOwnedChat: 0
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: Should have known! My folks are from Dharwad too.
-    isUserOwnedChat: 1
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: Where in Dharwad?
-    isUserOwnedChat: 0
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: Malmaddi
-    isUserOwnedChat: 1
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: "You\u2019ve got to be kidding me."
-    isUserOwnedChat: 0
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: Yours too huh? XD
-    isUserOwnedChat: 1
-  - waitBeforeSending: 0.5
-    waitWhileTyping: 0.5
-    chatContent: 'Small world :) '
-    isUserOwnedChat: 0

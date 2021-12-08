@@ -15,6 +15,9 @@ public class GeneralScreenData
 [CreateAssetMenu(fileName = "ExperienceData", menuName = "ScriptableObjects/Experiences", order = 1)]
 public class ExperienceDataScriptableObject : ScriptableObject
 {
+    public string selectedProfileName;
+    public ProfileImage selectedProfileDP;
+    
     public List<PageData> pageType;
     public List<string> directionScreens;
     public List<GeneralScreenData> GeneralScreenDataCollection;

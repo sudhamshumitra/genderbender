@@ -8,8 +8,10 @@ public struct CardItem
     public Sprite coverSprite;
     public Vector4 coverOffset;
     public string coverText;
+    public float aboutTextHeight;
     public string aboutText;
-    public ImageItem[] basicsAndInterests;
+    public ImageItem[] basics;
+    public ImageItem[] interests;
     public ProfileImage[] profileImages;
     public ImageItem[] spotifyItems;
     public Sprite[] instagramSprites;

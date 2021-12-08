@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb9206ffc974d15a810a13f1d6f69f2, type: 3}
+  m_Name: Anusha_Swipe
+  m_EditorClassIdentifier: 
+  CardDataCollection:
+  - profileName: Bharat
+    coverSprite: {fileID: 21300000, guid: 6eab5d3a12e197143af6b40e45b05d8f, type: 3}
+    coverOffset: {x: 0, y: 224, z: 625.6, w: 1028.7}
+    coverText: Bharat, 30
+    aboutTextHeight: 100
+    aboutText: Your friendly neighbourhood Engineer turned Filmmaker.
+    basics:
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Socially
+    - bandImage: {fileID: 21300000, guid: f0bce1d61d268f64b9ae58a530d30e9f, type: 3}
+      bandName: Never
+    - bandImage: {fileID: 21300000, guid: 9f8c2cec19d635346a0a50420127cb39, type: 3}
+      bandName: Gemini
+    - bandImage: {fileID: 21300000, guid: 0c8b07f6f90d9f349a55841687f03c23, type: 3}
+      bandName: Hindu
+    interests:
+    - bandImage: {fileID: 21300000, guid: eabe0b7b1e650ed459981d4798dc5018, type: 3}
+      bandName: Road-Trips
+    - bandImage: {fileID: 21300000, guid: eabe0b7b1e650ed459981d4798dc5018, type: 3}
+      bandName: Camping
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: EDM
+    - bandImage: {fileID: 21300000, guid: 0152397ce7638294ebbf78836c9bc345, type: 3}
+      bandName: Video Games
+    profileImages: []
+    spotifyItems: []
+    instagramSprites: []
+    experienceData: {fileID: 0}
+    prompts: []
+  - profileName: Prem
+    coverSprite: {fileID: 21300000, guid: 8f0e1f407b4095e4b89dad5921715ca6, type: 3}
+    coverOffset: {x: 0, y: 7.7, z: 780.2, w: 979.6}
+    coverText: Prem, 26
+    aboutTextHeight: 20
+    aboutText: Sales consultant, new in the city
+    basics:
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Never
+    - bandImage: {fileID: 21300000, guid: 89194e587ba01d14382d4d84ac234edd, type: 3}
+      bandName: Don't want
+    interests:
+    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
+      bandName: Crime
+    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
+      bandName: Thriller
+    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
+      bandName: Mystery
+    profileImages: []
+    spotifyItems: []
+    instagramSprites: []
+    experienceData: {fileID: 0}
+    prompts: []
+  - profileName: Neil
+    coverSprite: {fileID: 21300000, guid: 0525ac5c4c3d00547bafd0cfd7d2a775, type: 3}
+    coverOffset: {x: 0, y: 0, z: 700, w: 1073}
+    coverText: Neil, 29
+    aboutTextHeight: 100
+    aboutText: Stumbling through a PhD in Language Studies
+    basics:
+    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+      bandName: Left
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Socially
+    - bandImage: {fileID: 21300000, guid: f0bce1d61d268f64b9ae58a530d30e9f, type: 3}
+      bandName: Regularly
+    interests:
+    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+      bandName: Feminism
+    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+      bandName: Black Lives Matter
+    - bandImage: {fileID: 21300000, guid: 5ae86d7f7a6a1c94fa051aec4bef8ed0, type: 3}
+      bandName: Stand-up
+    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
+      bandName: Anime
+    profileImages:
+    - profileText: 
+      content: {fileID: 21300000, guid: 3d1a191b2e608e44a97c00741483b63d, type: 3}
+      position: 5
+      xywh: {x: 0, y: -24.3, z: 788.2, w: 701.8}
+    - profileText: 
+      content: {fileID: 21300000, guid: 47802df124a544c48921305bc48a3a6e, type: 3}
+      position: 8
+      xywh: {x: 0, y: -26.8, z: 720, w: 688.7}
+    - profileText: 
+      content: {fileID: 21300000, guid: 0fe952c1fd8af434a9d66cfb3b018269, type: 3}
+      position: 10
+      xywh: {x: 0, y: -34.8, z: 672.1, w: 704.81}
+    spotifyItems:
+    - bandImage: {fileID: 21300000, guid: 7d4bf233d6be7e9448116af0e8446334, type: 3}
+      bandName: Porcupine Tree
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Daft Punk
+    - bandImage: {fileID: 21300000, guid: 7d4bf233d6be7e9448116af0e8446334, type: 3}
+      bandName: The Strokes
+    instagramSprites: []
+    experienceData: {fileID: 0}
+    prompts:
+    - promptLineHeight: 60
+      promptAnswerHeight: 60
+      promptLine: After work you will find me...
+      promptAnswer: Work who?
+      promptPosition: 6
+    - promptLineHeight: 60
+      promptAnswerHeight: 80
+      promptLine: "My real life superpower is\u2026"
+      promptAnswer: Pretending to work while just reading to win an argument at the
+        next house party
+      promptPosition: 7
+    - promptLineHeight: 60
+      promptAnswerHeight: 80
+      promptLine: "We\u2019ll get on if..."
+      promptAnswer: You also think SOMETHING IS ROTTEN IN THE STATE OF Ind**
+      promptPosition: 8

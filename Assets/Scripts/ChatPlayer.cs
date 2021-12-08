@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class ChatElement
@@ -24,11 +26,18 @@ public class ChatElement
 [System.Serializable]
 public class ChatData
 {
-   public ChatData(List<ChatElement> chatElements)
+   public string profileName;
+   public ProfileImage profileDP;
+   
+   public ChatData(string profileName, ProfileImage profileDP, List<ChatElement> chatElements)
    {
+      this.profileName = profileName;
+      this.profileDP = profileDP;
       this.ChatElements = chatElements;
       Reset();
    }
+   
+   
    
    [SerializeField]
    private List<ChatElement> ChatElements;
@@ -57,6 +66,9 @@ public class ChatData
 
 public class ChatPlayer : MonoBehaviour
 {
+   [SerializeField] private TextMeshProUGUI profileName;
+   [SerializeField] private Image profileDP;
+   
    [SerializeField] private AudioClip sentSFX;
    [SerializeField] private AudioClip receivedSFX;
    [SerializeField] private AudioClip typingSFX;
@@ -129,6 +141,11 @@ public class ChatPlayer : MonoBehaviour
 
    private void Play(ChatData chatData)
    {
+      profileName.text = chatData.profileName;
+      profileDP.sprite = chatData.profileDP.content;
+      profileDP.rectTransform.localPosition = new Vector3(chatData.profileDP.xywh.x, chatData.profileDP.xywh.y);
+      profileDP.rectTransform.sizeDelta = new Vector2(chatData.profileDP.xywh.z, chatData.profileDP.xywh.w);
+      
       _chatData = chatData;
       chatRoutine = StartCoroutine(ChatEnumerator());
    }

@@ -17,8 +17,12 @@ public static class CardPreset
 [Serializable]
 public struct PromptData
 {
+    public float promptLineHeight;
+    public float promptAnswerHeight;
+    
     public string promptLine;
     public string promptAnswer;
+    [Range(5, 50)]
     public int promptPosition;
 }
 
@@ -45,9 +49,11 @@ public class CardBehaviour : MonoBehaviour
     [SerializeField] private TextMeshProUGUI aboutText;
     [SerializeField] private TextMeshProUGUI instagramHeader;
     
-    [SerializeField] private Transform basicsAndInterestParent1;
-    [SerializeField] private Transform basicsAndInterestParent2;
-
+    [SerializeField] private Transform basicsParent1;
+    [SerializeField] private Transform basicsParent2;
+    [SerializeField] private Transform interestParent1;
+    [SerializeField] private Transform interestParent2;
+    
     [SerializeField] private Transform bandParent1;
     [SerializeField] private Transform bandParent2;
     [SerializeField] private Transform instagramGridParent;
@@ -94,12 +100,19 @@ public class CardBehaviour : MonoBehaviour
         foreach (var promptUnit in cardItem.prompts)
         {
             var promptBehavior = Instantiate(promptPrefab, transform);
-            promptBehavior.transform.GetChild(0).Find("line").GetComponent<TextMeshProUGUI>().text = promptUnit.promptLine;
-            promptBehavior.transform.GetChild(0).Find("answer").GetComponent<TextMeshProUGUI>().text = promptUnit.promptAnswer;
+            var answer = promptBehavior.transform.GetChild(0).Find("answer").GetComponent<TextMeshProUGUI>();
+            var line = promptBehavior.transform.GetChild(0).Find("line").GetComponent<TextMeshProUGUI>();
+            line.text = promptUnit.promptLine;
+            answer.text = promptUnit.promptAnswer;
+
+            line.rectTransform.sizeDelta = new Vector2(line.rectTransform.rect.width, promptUnit.promptLineHeight);
+            answer.rectTransform.sizeDelta = new Vector2(answer.rectTransform.rect.width, promptUnit.promptAnswerHeight);
+            
             promptBehavior.transform.SetSiblingIndex(1 + 2 * (promptUnit.promptPosition - 1));
             var spaceBehavior = Instantiate(spacingPrefab, transform);
             spaceBehavior.name = "PromptContainer " + spaceBehavior.name;
             spaceBehavior.transform.SetSiblingIndex(2 + 2 * (promptUnit.promptPosition - 1));
+            promptBehavior.GetComponent<PromptContainerAdjustment>().Adjust();
         }
     }
     
@@ -113,30 +126,37 @@ public class CardBehaviour : MonoBehaviour
 
         //aboutText.autoSizeTextContainer = true;
         instagramHeader.text = cardItem.profileName + "'s Instagram";
-        aboutText.text = cardItem.aboutText;
-        var area = aboutText.preferredWidth * aboutText.preferredHeight;
-        float finalWidth = 685;
-        var finalHeight = area / finalWidth;
-        aboutText.rectTransform.sizeDelta = new Vector2(finalWidth, finalHeight);
+        aboutText.rectTransform.sizeDelta = new Vector2(aboutText.rectTransform.rect.width, cardItem.aboutTextHeight);
         var parent = aboutText.transform.parent;
-        var originalSize = parent.GetComponent<RectTransform>().sizeDelta;
+        var textParent = parent.GetComponent<RectTransform>();
+        textParent.sizeDelta = new Vector2(textParent.rect.width, cardItem.aboutTextHeight);
+        var textParentParent = parent.parent.GetComponent<RectTransform>();
+        textParentParent.sizeDelta = new Vector2(textParentParent.rect.width, cardItem.aboutTextHeight);
+        aboutText.text = cardItem.aboutText;
 
-        parent.GetComponent<RectTransform>().sizeDelta =
-            new Vector2(originalSize.x, finalHeight);
-        var parentOriginalSize = aboutParent.GetComponent<RectTransform>().sizeDelta;
-        aboutParent.GetComponent<RectTransform>().sizeDelta =
-            new Vector2(parentOriginalSize.x, finalHeight);
-
-        DestroyChildren(basicsAndInterestParent1);
-        DestroyChildren(basicsAndInterestParent2);
-        
-        foreach (var cardBasicItem in cardItem.basicsAndInterests)
+        DestroyChildren(basicsParent1);
+        DestroyChildren(basicsParent2);
+        foreach (var cardBasicItem in cardItem.basics)
         {
             if (cardBasicItem.bandImage != null)
             {
-                var targetBasicsAndInterestParent = basicsAndInterestParent1.childCount < 2
-                    ? basicsAndInterestParent1
-                    : basicsAndInterestParent2;
+                var targetBasicsAndInterestParent = basicsParent1.childCount <= basicsParent2.childCount
+                    ? basicsParent1
+                    : basicsParent2;
+                var imageItem = Instantiate(imageItemPrefab, targetBasicsAndInterestParent);
+                SetupImageItem(ref imageItem, cardBasicItem);
+            }
+        }
+
+        DestroyChildren(interestParent1);
+        DestroyChildren(interestParent2);
+        foreach (var cardBasicItem in cardItem.interests)
+        {
+            if (cardBasicItem.bandImage != null)
+            {
+                var targetBasicsAndInterestParent = interestParent1.childCount <= interestParent2.childCount
+                    ? interestParent1
+                    : interestParent2;
                 var imageItem = Instantiate(imageItemPrefab, targetBasicsAndInterestParent);
                 SetupImageItem(ref imageItem, cardBasicItem);
             }
@@ -145,7 +165,6 @@ public class CardBehaviour : MonoBehaviour
         DestroyChildren(bandParent1);
         DestroyChildren(bandParent2);
 
-        
         PlaceSpotify(cardItem);
         PlaceInstagram(cardItem);
         PlacePrompts(cardItem);
@@ -224,6 +243,10 @@ public class CardBehaviour : MonoBehaviour
         }
         else
         {
+            spotifySpace.gameObject.transform.SetAsLastSibling();
+            var lastSiblingIndex = spotifySpace.gameObject.transform.GetSiblingIndex();
+            spotifyContainer.gameObject.transform.SetSiblingIndex(lastSiblingIndex-1);
+            spotifySpace.gameObject.transform.SetSiblingIndex(lastSiblingIndex );
             spotifySpace.gameObject.SetActive(true);
             spotifyContainer.gameObject.SetActive(true);
             foreach (var cardBasicItem in cardItem.spotifyItems)

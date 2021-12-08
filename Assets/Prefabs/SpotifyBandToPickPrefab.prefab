@@ -113,7 +113,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 161.57938, y: 48.293167}
+  m_SizeDelta: {x: 247.6, y: 64.7}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &7543892545959893199
 CanvasRenderer:
@@ -183,6 +183,8 @@ MonoBehaviour:
   clickedColor: {r: 0.7048772, g: 0.86951935, b: 0.9056604, a: 1}
   finalColor: {r: 0.9921569, g: 0.93725497, b: 0.75294125, a: 1}
   bandImage: {fileID: 7543892545959893198}
+  bandArtistImage: {fileID: 8570710177754361737}
+  bandName: {fileID: 7543892546371132578}
 --- !u!1 &7543892546371132580
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,8 +278,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 28.6
-  m_fontSizeBase: 28.6
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

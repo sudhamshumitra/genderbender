@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb9206ffc974d15a810a13f1d6f69f2, type: 3}
+  m_Name: Kritika_Swipe
+  m_EditorClassIdentifier: 
+  CardDataCollection:
+  - profileName: Prem
+    coverSprite: {fileID: 21300000, guid: 8f0e1f407b4095e4b89dad5921715ca6, type: 3}
+    coverOffset: {x: 0, y: 7.7, z: 780.2, w: 979.6}
+    coverText: Prem, 26
+    aboutTextHeight: 30
+    aboutText: Sales consultant, new in the city
+    basics:
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Never
+    - bandImage: {fileID: 21300000, guid: 89194e587ba01d14382d4d84ac234edd, type: 3}
+      bandName: Don't Want
+    interests:
+    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
+      bandName: Crime
+    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
+      bandName: Thriller
+    - bandImage: {fileID: 21300000, guid: cfc0baec8691c4d4dafbc8bd2702f7d5, type: 3}
+      bandName: Mystery
+    profileImages: []
+    spotifyItems: []
+    instagramSprites: []
+    experienceData: {fileID: 0}
+    prompts: []
+  - profileName: Naveen
+    coverSprite: {fileID: 21300000, guid: 7b29e2e9e6732d94cbc35babab0ee058, type: 3}
+    coverOffset: {x: 0, y: 0, z: 772, w: 776.9}
+    coverText: Naveen, 28
+    aboutTextHeight: 30
+    aboutText: Fitness Enthusiast, cat parent
+    basics:
+    - bandImage: {fileID: 21300000, guid: 89194e587ba01d14382d4d84ac234edd, type: 3}
+      bandName: Not sure yet
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Sometimes
+    interests:
+    - bandImage: {fileID: 21300000, guid: c8e194bc1f64e224c9d95964f9d820d8, type: 3}
+      bandName: Cooking
+    - bandImage: {fileID: 21300000, guid: 0152397ce7638294ebbf78836c9bc345, type: 3}
+      bandName: Video Games
+    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
+      bandName: Crime
+    - bandImage: {fileID: 21300000, guid: 5ae86d7f7a6a1c94fa051aec4bef8ed0, type: 3}
+      bandName: Comedy
+    profileImages: []
+    spotifyItems: []
+    instagramSprites: []
+    experienceData: {fileID: 0}
+    prompts: []
+  - profileName: Abhijith
+    coverSprite: {fileID: 21300000, guid: 008223be0c70e514c8e7eea3b84438d0, type: 3}
+    coverOffset: {x: 0, y: -10, z: 573.7, w: 774.8}
+    coverText: Abhijith, 28
+    aboutTextHeight: 30
+    aboutText: Consultant at Big Four
+    basics:
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Regularly
+    - bandImage: {fileID: 21300000, guid: f0bce1d61d268f64b9ae58a530d30e9f, type: 3}
+      bandName: Socially
+    - bandImage: {fileID: 21300000, guid: 89194e587ba01d14382d4d84ac234edd, type: 3}
+      bandName: Not sure yet
+    interests:
+    - bandImage: {fileID: 21300000, guid: eabe0b7b1e650ed459981d4798dc5018, type: 3}
+      bandName: Camping
+    - bandImage: {fileID: 21300000, guid: 0152397ce7638294ebbf78836c9bc345, type: 3}
+      bandName: Board Games
+    - bandImage: {fileID: 21300000, guid: 23f4a19a9adcf1d4ab5a37f0767bac70, type: 3}
+      bandName: Space Travel
+    - bandImage: {fileID: 21300000, guid: e71c9d2e36d8f0842834f2a1a8d76303, type: 3}
+      bandName: Sci-fi
+    profileImages:
+    - profileText: 
+      content: {fileID: 21300000, guid: 1e5a45957f4ec9c44b7ca704194fd7aa, type: 3}
+      position: 6
+      xywh: {x: 0, y: -55.5, z: 695, w: 645.7}
+    - profileText: 
+      content: {fileID: 21300000, guid: bd571fc7724dc494e89f178c6630b5e3, type: 3}
+      position: 9
+      xywh: {x: 0, y: 0, z: 658.9, w: 813.3}
+    - profileText: 
+      content: {fileID: 21300000, guid: b2f5fb1ae24face418e57d91694ee822, type: 3}
+      position: 11
+      xywh: {x: 0, y: 374.2, z: 693.9, w: 1436.9}
+    spotifyItems: []
+    instagramSprites: []
+    experienceData: {fileID: 0}
+    prompts:
+    - promptLineHeight: 60
+      promptAnswerHeight: 60
+      promptLine: Change my mind about...
+      promptAnswer: "Blended whiskey. It\u2019s entirely underrated."
+      promptPosition: 5
+    - promptLineHeight: 60
+      promptAnswerHeight: 80
+      promptLine: My personal hell is...
+      promptAnswer: Trying to explain The Multiverse to the uninitiated
+      promptPosition: 7
+    - promptLineHeight: 60
+      promptAnswerHeight: 60
+      promptLine: "I get way too excited about\u2026"
+      promptAnswer: Airy 2BHKs in Indiranagar
+      promptPosition: 8
