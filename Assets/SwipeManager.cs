@@ -83,6 +83,7 @@ public class SwipeManager : MonoBehaviour
     
     private void ClickAccept()
     {
+        if (cardData.IsSamplingExperienceData) ClickReject();
         selectedCardIndex = currentCardIndex;
         experienceData = cardData.CardDataCollection[currentCardIndex].experienceData;
         currentPageNumber +=1;
