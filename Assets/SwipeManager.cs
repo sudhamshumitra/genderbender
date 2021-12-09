@@ -227,7 +227,7 @@ public class SwipeManager : MonoBehaviour
                     break;
                 case 1:
                     ShowDirectionScreen(
-                        "2nd direction screen goes here");
+                        "You could drag up and down the screen to check out each profile");
                     break;
                 case 2:
                     ShowProfileScreen();
