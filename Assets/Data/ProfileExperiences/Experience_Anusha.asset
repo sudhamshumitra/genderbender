@@ -67,8 +67,8 @@ MonoBehaviour:
     to experience her narrative.
   - Tap on the bottom right arrow to look more closely at the interests Anusha presents
     on the dating app
-  - "A glimpse of Anusha\u2019s experience as she looks through different profiles.
-    Click on the bottom right arrow to continue."
+  - "For a glimpse of Anusha\u2019s experience as she looks through different profiles,<br>click
+    on the bottom right arrow to continue."
   - "Tap on Neil's photo in the next screen to see how it could have been different\u2026
     and if Anusha would swipe right then. "
   - "But what stories do we, savarnas, find interesting? The kind that fits into
@@ -106,7 +106,7 @@ MonoBehaviour:
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: Great, got done some reading.
+      chatContent: Great, got some reading done.
       isUserOwnedChat: 0
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
