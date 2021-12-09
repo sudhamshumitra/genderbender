@@ -131,6 +131,7 @@ public class SwipeManager : MonoBehaviour
         generalScreen.gameObject.SetActive(false);
         generalScreenCompleteImageChangeScreen.gameObject.SetActive(false);
         bandScreen.gameObject.SetActive(false);
+        finalScreen.gameObject.SetActive(false);
        // generalScreenBGImageChangeScreen.gameObject.SetActive(false);   
         directionScreen.gameObject.SetActive(false);
     }
