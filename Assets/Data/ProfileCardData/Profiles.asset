@@ -182,3 +182,127 @@ MonoBehaviour:
       promptLine: "We\u2019ll get on if..."
       promptAnswer: You also think SOMETHING IS ROTTEN IN THE STATE OF Ind**
       promptPosition: 8
+  - profileName: Chetna
+    coverSprite: {fileID: 21300000, guid: 265afb8310b9a5b4eb3f0dbce55fc94e, type: 3}
+    coverOffset: {x: 0, y: -3.084698, z: 720, w: 762.541}
+    coverText: Chetna, 28
+    aboutTextHeight: 100
+    aboutText: Product Designer<br>Good vibes only.
+    basics:
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Regularly
+    - bandImage: {fileID: 21300000, guid: f0bce1d61d268f64b9ae58a530d30e9f, type: 3}
+      bandName: Sometimes
+    interests:
+    - bandImage: {fileID: 21300000, guid: 0c8b07f6f90d9f349a55841687f03c23, type: 3}
+      bandName: Yoga
+    - bandImage: {fileID: 21300000, guid: eabe0b7b1e650ed459981d4798dc5018, type: 3}
+      bandName: Backpacking
+    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
+      bandName: Anime
+    - bandImage: {fileID: 21300000, guid: c8e194bc1f64e224c9d95964f9d820d8, type: 3}
+      bandName: Foodie
+    profileImages:
+    - profileText: 
+      content: {fileID: 21300000, guid: f99e14a0bd3e42f498265b606fb743d5, type: 3}
+      position: 6
+      xywh: {x: -0.000012398, y: 81, z: 705.9471, w: 830.6121}
+    - profileText: 
+      content: {fileID: 21300000, guid: 720a7247e66611f4ea54740580edbc8f, type: 3}
+      position: 9
+      xywh: {x: 4.4, y: 24.9, z: 728.8572, w: 843.663}
+    - profileText: 
+      content: {fileID: 21300000, guid: 705216ffa1424ca40bd3203d51bbd6d8, type: 3}
+      position: 11
+      xywh: {x: 226, y: 0, z: 1151.961, w: 746.8506}
+    spotifyItems:
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Ben Bohmer
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Lorde
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Zack Hemsey
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Arctic Monkeys
+    instagramSprites: []
+    experienceData: {fileID: 0}
+    prompts:
+    - promptLineHeight: 60
+      promptAnswerHeight: 80
+      promptLine: "My mantra is\u2026"
+      promptAnswer: How you treat animals will tell me everything I need to know
+        about you.
+      promptPosition: 5
+    - promptLineHeight: 120.5
+      promptAnswerHeight: 120
+      promptLine: Something I learnt way later than I should have...
+      promptAnswer: "World\u2019s best pancake + maple syrup doesn\u2019t stand a
+        chance before CTR Masale dose"
+      promptPosition: 7
+    - promptLineHeight: 60
+      promptAnswerHeight: 50
+      promptLine: First round is on me if
+      promptAnswer: "You didn\u2019t vote for the ruling party in 2019 "
+      promptPosition: 9
+  - profileName: Bharat
+    coverSprite: {fileID: 21300000, guid: 6eab5d3a12e197143af6b40e45b05d8f, type: 3}
+    coverOffset: {x: 0.00001359, y: 107, z: 619.6233, w: 851.512}
+    coverText: Bharat, 30
+    aboutTextHeight: 100
+    aboutText: Your friendly neighbourhood Engineer turned Filmmaker.
+    basics:
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Socially
+    - bandImage: {fileID: 21300000, guid: f0bce1d61d268f64b9ae58a530d30e9f, type: 3}
+      bandName: Never
+    - bandImage: {fileID: 21300000, guid: 9f8c2cec19d635346a0a50420127cb39, type: 3}
+      bandName: Gemini
+    - bandImage: {fileID: 21300000, guid: 0c8b07f6f90d9f349a55841687f03c23, type: 3}
+      bandName: Hindu
+    interests:
+    - bandImage: {fileID: 21300000, guid: eabe0b7b1e650ed459981d4798dc5018, type: 3}
+      bandName: Road-Trips
+    - bandImage: {fileID: 21300000, guid: eabe0b7b1e650ed459981d4798dc5018, type: 3}
+      bandName: Camping
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: EDM
+    - bandImage: {fileID: 21300000, guid: 0152397ce7638294ebbf78836c9bc345, type: 3}
+      bandName: Video Games
+    profileImages:
+    - profileText: 
+      content: {fileID: 21300000, guid: 1dd66d5f9c576254b951fcf21b64a014, type: 3}
+      position: 6
+      xywh: {x: -7.8, y: 11, z: 550.0801, w: 785.457}
+    - profileText: 
+      content: {fileID: 21300000, guid: 215ef9b6baedaf14298cf6f9e07d9053, type: 3}
+      position: 10
+      xywh: {x: 34, y: 0, z: 872.3457, w: 769.3943}
+    spotifyItems:
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: TBD
+    - bandImage: {fileID: 21300000, guid: 7d4bf233d6be7e9448116af0e8446334, type: 3}
+      bandName: TBD
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: TBD
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: TBD
+    instagramSprites: []
+    experienceData: {fileID: 0}
+    prompts:
+    - promptLineHeight: 60
+      promptAnswerHeight: 120
+      promptLine: "Two truths and one lie\u2026"
+      promptAnswer: "I always order Hawaiian pizza for the table. I\u2019m an arachnophile.
+        I never return calls."
+      promptPosition: 5
+    - promptLineHeight: 60
+      promptAnswerHeight: 60
+      promptLine: My mantra is...
+      promptAnswer: Karma. What goes around comes around.
+      promptPosition: 7
+    - promptLineHeight: 60
+      promptAnswerHeight: 120
+      promptLine: The perfect first date...
+      promptAnswer: "We watch cringy bollywood and you don\u2019t get annoyed with
+        me pointing out continuity errors"
+      promptPosition: 9
