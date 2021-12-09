@@ -136,10 +136,10 @@ MonoBehaviour:
     interests:
     - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
       bandName: Feminism
-    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
-      bandName: Black Lives Matter
     - bandImage: {fileID: 21300000, guid: 5ae86d7f7a6a1c94fa051aec4bef8ed0, type: 3}
       bandName: Stand-up
+    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+      bandName: Black Lives Matter
     - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
       bandName: Indie-Music Festivals
     profileImages:
