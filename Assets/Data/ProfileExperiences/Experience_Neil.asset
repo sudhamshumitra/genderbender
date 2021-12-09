@@ -71,15 +71,16 @@ MonoBehaviour:
     experience her narrative.
   - A closer look at how Neil chooses to present himself to women on the app. Tap
     on the prompt on the next screen to see what it really tries to communicate.
-  - Here are some instances of what stories music can tell
-  - " \u201CYou are what you listen to.\u201D Sound familiar? There\u2019s no simple
-    way of saying how we retain sway over what is considered to be good taste\u2026
-    sometimes it\u2019s obscure artists that do the job, sometimes it\u2019s not."
+  - "Linking other apps to our profile is a great plus cause what can define us better
+    than our Spotify and IG, right? A closer look at Neil\u2019s\u2026"
+  - "There\u2019s no simple way of saying how we retain sway over what is considered
+    to be good taste\u2026 sometimes it\u2019s obscure artists that do the job, sometimes
+    it\u2019s not."
   - "Neil swipes right on most women\u2019s profiles to see which ones match with
     him eventually. We hear that the ratio of men to women on these apps is such
     that this becomes necessary."
-  - "Let\u2019s take a look at how Neil navigates the app"
-  - Neil matches with Deepti
+  - "Now a glimpse of Neil navigating the app\u2026"
+  - On matching with Deepti, a regular conversation begins..
   - "Sometimes there\u2019s a disconnect when we talk to a match\u2026"
   - "Sure, hundreds of us connect on food\u2026 but discomfort with food easily stands
     in for notions of purity and impurity. Just a matter of choice, it\u2019s an
@@ -231,7 +232,9 @@ MonoBehaviour:
         enough leisure as to pursue music outside of easily available mass media
       artistName: Porcupine Tree
       artistImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
-    - metaInfo: TBD
+    - metaInfo: To listen to a certain kind of music with its own eccentric culture
+        is to not only afford the festival passes but to afford to dress accordingly,
+        wear our hair suitably and drink merrily.
       artistName: Indie-Music Festivals
       artistImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
   swipeVideoName: NeilSwipeVideo
