@@ -63,7 +63,7 @@ MonoBehaviour:
   - '//CasteNoBar features characters played by kind friends. These profiles are
     works of fiction. What you will see are essentially a bunch of stories, all woven
     together from real experiences. '
-  - Now, you've chosen Chetna's  profile. <br><br>Click on the bottom right arrow
+  - Now, you've chosen Chetana's profile. <br><br>Click on the bottom right arrow
     to experience her narrative.
   - Click on the arrow to get a glimpse of Chetana scrolling through profiles
   - "Tap on the photo in the next screen to see how a photograph would change Chetana\u2019s
@@ -89,8 +89,9 @@ MonoBehaviour:
       content: {fileID: 21300000, guid: 1e5a45957f4ec9c44b7ca704194fd7aa, type: 3}
       position: 5
       xywh: {x: 132.6, y: -140.9, z: 858.3079, w: 553.3735}
-    - profileText: "\u201CWell curated images shows earnestness\u201D = High res,
-        European aesthetic is a prerequisite to qualify as potential-date"
+    - profileText: "\u201CWell curated images shows earnestness\u201D = Only high
+        res, European aesthetic is a prerequisite to qualify as potential-date and
+        not an image like this"
       content: {fileID: 21300000, guid: 70904d6eef8765a40aef14f72148ebf6, type: 3}
       position: 5
       xywh: {x: 0, y: -113.1, z: 617.4, w: 615.8}
@@ -121,7 +122,7 @@ MonoBehaviour:
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: "Yea! I mean\u2026 I guess she was looking for long term or whatever"
+      chatContent: "Ya! I mean\u2026 I guess she was looking for long term or whatever"
       isUserOwnedChat: 0
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5

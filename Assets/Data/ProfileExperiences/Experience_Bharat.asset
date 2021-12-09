@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8f9acee58ee4f1cb36b2d38e3ab5866, type: 3}
   m_Name: Experience_Bharat
   m_EditorClassIdentifier: 
-  selectedProfileName: Chetna
+  selectedProfileName: Chetana
   selectedProfileDP:
     profileText: 
     content: {fileID: 21300000, guid: 265afb8310b9a5b4eb3f0dbce55fc94e, type: 3}

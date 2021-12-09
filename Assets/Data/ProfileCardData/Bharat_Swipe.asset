@@ -120,10 +120,10 @@ MonoBehaviour:
       promptLine: "I\u2019m still not over\u2026"
       promptAnswer: How GoT ended, where the writers at
       promptPosition: 9
-  - profileName: Chetna
+  - profileName: Chetana
     coverSprite: {fileID: 21300000, guid: 265afb8310b9a5b4eb3f0dbce55fc94e, type: 3}
     coverOffset: {x: 0, y: -3.084698, z: 720, w: 762.541}
-    coverText: Chetna, 28
+    coverText: Chetana, 28
     aboutTextHeight: 100
     aboutText: Product Designer<br>Good vibes only.
     basics:
@@ -144,7 +144,7 @@ MonoBehaviour:
     - profileText: 
       content: {fileID: 21300000, guid: f99e14a0bd3e42f498265b606fb743d5, type: 3}
       position: 6
-      xywh: {x: -0.000012398, y: 81, z: 705.9471, w: 830.6121}
+      xywh: {x: -0.000012398, y: 81, z: 635.21, w: 830.6121}
     - profileText: 
       content: {fileID: 21300000, guid: 720a7247e66611f4ea54740580edbc8f, type: 3}
       position: 9
