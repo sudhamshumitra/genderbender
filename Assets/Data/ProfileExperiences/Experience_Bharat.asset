@@ -63,8 +63,8 @@ MonoBehaviour:
     together from real experiences. '
   - Now, you've chosen Bharat's profile. <br><br>Click on the bottom right arrow
     to experience her narrative.
-  - "A closer look at his description of himself through \u201CBasics\u201D and \u201CInterests\u201D.
-    And how these alter who swipes right on him."
+  - "A closer look at his \u201CBasics\u201D and \u201CInterests\u201D. And how these
+    alter who swipes right on him."
   - "Bharat swipes right on most women\u2019s profiles to see which ones match with
     him eventually. We are told that the ratio of men to women on these apps is such.
     Click on bottom arrow to continue."
@@ -198,8 +198,8 @@ MonoBehaviour:
       isUserOwnedChat: 0
   spotifyData:
     bandInfo:
-    - metaInfo: "We may prefer the \u201CAgnostic\u201D and \u201CLiberal\u201D but
-        espouse Western Astrology as polished, letting status quo go unquestioned"
+    - metaInfo: "We may prefer \u201CAgnostic\u201D and \u201CLiberal\u201D but espouse
+        Western Astrology as polished, letting status quo go unquestioned"
       artistName: Gemini
       artistImage: {fileID: 21300000, guid: 9f8c2cec19d635346a0a50420127cb39, type: 3}
     - metaInfo: "Expensive lifestyles that seem simplistic become our aesthetic,
@@ -211,6 +211,6 @@ MonoBehaviour:
         \u201Cnightclubs or rolling a doobie\u201D can\u2019t. Easier to dismiss
         these than those traditionally thought to require intelligence, a property
         of the top of the caste hierarchy"
-      artistName: Gymming
+      artistName: Gym
       artistImage: {fileID: 21300000, guid: 8fda195071f80c44fa26c65b5bd62bb8, type: 3}
   swipeVideoName: BharatSwipeVideo

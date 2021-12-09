@@ -159,7 +159,7 @@ MonoBehaviour:
       waitWhileTyping: 0.5
       chatContent: "ROFL. I\u2019m just saying.. it would be a relief if I didn\u2019t
         have to fight at home."
-      isUserOwnedChat: 1
+      isUserOwnedChat: 0
   - chatElements:
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
