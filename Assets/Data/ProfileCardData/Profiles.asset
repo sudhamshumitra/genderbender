@@ -290,7 +290,7 @@ MonoBehaviour:
     experienceData: {fileID: 0}
     prompts:
     - promptLineHeight: 60
-      promptAnswerHeight: 120
+      promptAnswerHeight: 100
       promptLine: "Two truths and one lie\u2026"
       promptAnswer: "I always order Hawaiian pizza for the table. I\u2019m an arachnophile.
         I never return calls."

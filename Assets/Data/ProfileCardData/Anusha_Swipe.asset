@@ -16,7 +16,7 @@ MonoBehaviour:
   CardDataCollection:
   - profileName: Bharat
     coverSprite: {fileID: 21300000, guid: 6eab5d3a12e197143af6b40e45b05d8f, type: 3}
-    coverOffset: {x: 0, y: 224, z: 625.6, w: 1028.7}
+    coverOffset: {x: 0.00001359, y: 107, z: 619.6233, w: 851.512}
     coverText: Bharat, 30
     aboutTextHeight: 100
     aboutText: Your friendly neighbourhood Engineer turned Filmmaker.
