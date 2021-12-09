@@ -43,12 +43,14 @@ MonoBehaviour:
     mapIndex: 0
   - pageType: 1
     mapIndex: 6
-  - pageType: 1
-    mapIndex: 7
   - pageType: 7
     mapIndex: 1
   - pageType: 1
     mapIndex: 7
+  - pageType: 7
+    mapIndex: 2
+  - pageType: 1
+    mapIndex: 8
   - pageType: 8
     mapIndex: 0
   - pageType: 0
@@ -71,8 +73,8 @@ MonoBehaviour:
   - " \u2018Choice\u2019 being the go-to terminology to deny all kinds of gendered
     and other safety nets "
   - In the absence of policies that address caste structure and its material effects,
-    and skewed hiring practices, product based companies, just like the top jobs
-    in judiciary or education, inevitably favour savarnas.
+    and skewed hiring practices, corporates and especially product based companies,
+    just like the top jobs in judiciary or education, inevitably favour savarnas.
   - "And the \u201Cnetworks\u201D grow, even through the channel of dating\u2026
     benefiting us in all other spheres. "
   GeneralScreenDataCollection: []
@@ -140,8 +142,8 @@ MonoBehaviour:
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: "Yeah pretty much.. startup. I don\u2019t know how these Infosys
-        types do it"
+      chatContent: "Yeah pretty much.. I don\u2019t know how these Infosys types
+        do it"
       isUserOwnedChat: 0
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
@@ -155,20 +157,11 @@ MonoBehaviour:
   - chatElements:
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: Who are these people who still choose service based companies
-        lol
+      chatContent: But what company do you work in?<br>
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: hahaha! Yea, nobody should.
-      isUserOwnedChat: 0
-    - waitBeforeSending: 0.5
-      waitWhileTyping: 0.5
-      chatContent: What company do you work in?
-      isUserOwnedChat: 1
-    - waitBeforeSending: 0.5
-      waitWhileTyping: 0.5
-      chatContent: Swiggy :P
+      chatContent: Zynga
       isUserOwnedChat: 0
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
@@ -180,7 +173,8 @@ MonoBehaviour:
       isUserOwnedChat: 0
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: Arre! He was my junior in college.
+      chatContent: "Arre\u2026 He was my junior in college.. Now kind of lost touch
+        this year"
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
@@ -189,7 +183,16 @@ MonoBehaviour:
       isUserOwnedChat: 0
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: Though he wants to pursue photography now
+      chatContent: He's planning to quit.. Says he wants to pursue photography
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "This is too much of a coincidence. But why hasn\u2019t he already
+        called me :D"
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Lolol. He should na? You work in film?
       isUserOwnedChat: 0
   spotifyData:
     bandInfo:
