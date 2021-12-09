@@ -223,7 +223,7 @@ public class SwipeManager : MonoBehaviour
                 case 0:
                     FirstScreenHighlighter(true);
                     ShowDirectionScreen(
-                        "Welcome to //CasteNoBar. <br><br>We have multiple narratives that you can choose from and experience by 'hearting'..<br><br> Click on the bottom right arrow to continue");
+                        "Welcome to //CasteNoBar <br><br>We have multiple narratives that you can choose from and experience by 'hearting'..<br><br> Click on the bottom right arrow to continue");
                     break;
                 case 1:
                     ShowDirectionScreen(
