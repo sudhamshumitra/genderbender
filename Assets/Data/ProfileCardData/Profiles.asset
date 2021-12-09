@@ -120,3 +120,48 @@ MonoBehaviour:
       promptLine: "I\u2019m still not over\u2026"
       promptAnswer: How GoT ended, where the writers at
       promptPosition: 9
+  - profileName: Neil
+    coverSprite: {fileID: 21300000, guid: 0525ac5c4c3d00547bafd0cfd7d2a775, type: 3}
+    coverOffset: {x: 0, y: 0, z: 700, w: 1073}
+    coverText: Neil, 29
+    aboutTextHeight: 100
+    aboutText: Stumbling through a PhD in Language Studies
+    basics:
+    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+      bandName: Left
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Socially
+    - bandImage: {fileID: 21300000, guid: f0bce1d61d268f64b9ae58a530d30e9f, type: 3}
+      bandName: Regularly
+    interests:
+    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+      bandName: Feminism
+    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+      bandName: Black Lives Matter
+    - bandImage: {fileID: 21300000, guid: 5ae86d7f7a6a1c94fa051aec4bef8ed0, type: 3}
+      bandName: Stand-up
+    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
+      bandName: Anime
+    profileImages:
+    - profileText: 
+      content: {fileID: 21300000, guid: 3d1a191b2e608e44a97c00741483b63d, type: 3}
+      position: 5
+      xywh: {x: 0, y: -24.3, z: 720, w: 668.7}
+    - profileText: 
+      content: {fileID: 21300000, guid: 47802df124a544c48921305bc48a3a6e, type: 3}
+      position: 5
+      xywh: {x: 0, y: -26.8, z: 720, w: 688.7}
+    - profileText: 
+      content: {fileID: 21300000, guid: 0fe952c1fd8af434a9d66cfb3b018269, type: 3}
+      position: 5
+      xywh: {x: 0, y: -34.8, z: 672.1, w: 704.81}
+    spotifyItems:
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Porcupine Tree
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Daft Punk
+    - bandImage: {fileID: 21300000, guid: 7d4bf233d6be7e9448116af0e8446334, type: 3}
+      bandName: The Strokes
+    instagramSprites: []
+    experienceData: {fileID: 0}
+    prompts: []
