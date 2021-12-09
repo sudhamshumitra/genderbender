@@ -47,15 +47,7 @@ MonoBehaviour:
       content: {fileID: 21300000, guid: 215ef9b6baedaf14298cf6f9e07d9053, type: 3}
       position: 11
       xywh: {x: 34, y: 0, z: 872.3457, w: 769.3943}
-    spotifyItems:
-    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
-      bandName: TBD
-    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
-      bandName: TBD
-    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
-      bandName: TBD
-    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
-      bandName: TBD
+    spotifyItems: []
     instagramSprites: []
     experienceData: {fileID: 0}
     prompts:

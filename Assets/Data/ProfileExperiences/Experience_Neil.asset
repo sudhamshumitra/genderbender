@@ -71,10 +71,10 @@ MonoBehaviour:
     experience her narrative.
   - A closer look at how Neil chooses to present himself to women on the app. Tap
     on the prompt on the next screen to see what it really tries to communicate.
+  - Here are some instances of what stories music can tell
   - " \u201CYou are what you listen to.\u201D Sound familiar? There\u2019s no simple
     way of saying how we retain sway over what is considered to be good taste\u2026
     sometimes it\u2019s obscure artists that do the job, sometimes it\u2019s not."
-  - Here are some instances of what stories music can tell
   - "Neil swipes right on most women\u2019s profiles to see which ones match with
     him eventually. We hear that the ratio of men to women on these apps is such
     that this becomes necessary."
@@ -92,8 +92,8 @@ MonoBehaviour:
     originalTopText: Tap to see what this prompt is trying to reveal
     updatedPromptText: Often second, third, fourth generation landowning or propertied
       castes speak of economic stability and entrepreneurship like it has no history.
-      Who but someone with the same kind of economic and thus, social capital of
-      generations that can sustain our whims and fancies will relate to this response?
+      Who can relate to our many whims & fancies if not those with the same kind
+      of economic and thus, social standing from generations?
     updatedTopText: Click on the bottom arrow to continue!
   spriteChange:
   - profileImages:
@@ -227,10 +227,11 @@ MonoBehaviour:
       isUserOwnedChat: 1
   spotifyData:
     bandInfo:
-    - metaInfo: TBD
+    - metaInfo: Privy to the urban culture of college fests, concerts and gigs, with
+        enough leisure as to pursue music outside of easily available mass media
       artistName: Porcupine Tree
       artistImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
     - metaInfo: TBD
-      artistName: The Strokes
+      artistName: Indie-Music Festivals
       artistImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
   swipeVideoName: NeilSwipeVideo

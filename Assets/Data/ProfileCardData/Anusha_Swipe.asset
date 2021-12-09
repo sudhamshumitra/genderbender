@@ -86,8 +86,8 @@ MonoBehaviour:
       bandName: Black Lives Matter
     - bandImage: {fileID: 21300000, guid: 5ae86d7f7a6a1c94fa051aec4bef8ed0, type: 3}
       bandName: Stand-up
-    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
-      bandName: Anime
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Indie-Music Festivals
     profileImages:
     - profileText: 
       content: {fileID: 21300000, guid: 3d1a191b2e608e44a97c00741483b63d, type: 3}

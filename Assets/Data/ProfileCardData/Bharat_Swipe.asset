@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb9206ffc974d15a810a13f1d6f69f2, type: 3}
   m_Name: Bharat_Swipe
   m_EditorClassIdentifier: 
-  IsSamplingExperienceData: 0
+  IsSamplingExperienceData: 1
   CardDataCollection:
   - profileName: Anusha
     coverSprite: {fileID: 21300000, guid: ee9bbeacbaaff264bb5ff73588251038, type: 3}
@@ -53,7 +53,7 @@ MonoBehaviour:
       xywh: {x: 0.0000027418, y: 196.07, z: 905.0562, w: 1122.131}
     spotifyItems: []
     instagramSprites: []
-    experienceData: {fileID: 11400000, guid: e1a5281171fe207429f8c4f1589e4478, type: 2}
+    experienceData: {fileID: 0}
     prompts:
     - promptLineHeight: 60
       promptAnswerHeight: 170
@@ -103,7 +103,7 @@ MonoBehaviour:
       xywh: {x: 0, y: 0, z: 720, w: 1130}
     spotifyItems: []
     instagramSprites: []
-    experienceData: {fileID: 11400000, guid: 1d87a2e195c07354cb03d5b709ab2192, type: 2}
+    experienceData: {fileID: 0}
     prompts:
     - promptLineHeight: 120
       promptAnswerHeight: 50
@@ -163,7 +163,7 @@ MonoBehaviour:
     - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
       bandName: Arctic Monkeys
     instagramSprites: []
-    experienceData: {fileID: 11400000, guid: 73f3280b39544b34da9da98dc9b3e11b, type: 2}
+    experienceData: {fileID: 0}
     prompts:
     - promptLineHeight: 60
       promptAnswerHeight: 80

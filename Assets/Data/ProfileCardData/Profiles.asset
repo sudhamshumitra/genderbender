@@ -140,8 +140,8 @@ MonoBehaviour:
       bandName: Black Lives Matter
     - bandImage: {fileID: 21300000, guid: 5ae86d7f7a6a1c94fa051aec4bef8ed0, type: 3}
       bandName: Stand-up
-    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
-      bandName: Anime
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Indie-Music Festivals
     profileImages:
     - profileText: 
       content: {fileID: 21300000, guid: 3d1a191b2e608e44a97c00741483b63d, type: 3}
@@ -277,15 +277,7 @@ MonoBehaviour:
       content: {fileID: 21300000, guid: 215ef9b6baedaf14298cf6f9e07d9053, type: 3}
       position: 10
       xywh: {x: 34, y: 0, z: 872.3457, w: 769.3943}
-    spotifyItems:
-    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
-      bandName: TBD
-    - bandImage: {fileID: 21300000, guid: 7d4bf233d6be7e9448116af0e8446334, type: 3}
-      bandName: TBD
-    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
-      bandName: TBD
-    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
-      bandName: TBD
+    spotifyItems: []
     instagramSprites: []
     experienceData: {fileID: 11400000, guid: 58fa62ee049bbfc49bce694b4452beb6, type: 2}
     prompts:
