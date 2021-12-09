@@ -47,20 +47,18 @@ MonoBehaviour:
     mapIndex: 0
   - pageType: 1
     mapIndex: 7
-  - pageType: 1
-    mapIndex: 8
   - pageType: 7
     mapIndex: 0
   - pageType: 1
-    mapIndex: 9
+    mapIndex: 8
   - pageType: 7
     mapIndex: 1
   - pageType: 1
-    mapIndex: 10
+    mapIndex: 9
   - pageType: 7
     mapIndex: 2
   - pageType: 1
-    mapIndex: 11
+    mapIndex: 10
   - pageType: 8
     mapIndex: 0
   - pageType: 0
