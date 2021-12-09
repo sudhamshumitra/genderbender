@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb9206ffc974d15a810a13f1d6f69f2, type: 3}
+  m_Name: Bharat_Swipe
+  m_EditorClassIdentifier: 
+  IsSamplingExperienceData: 0
+  CardDataCollection:
+  - profileName: Anusha
+    coverSprite: {fileID: 21300000, guid: ee9bbeacbaaff264bb5ff73588251038, type: 3}
+    coverOffset: {x: 19, y: -2.4801, z: 777.9154, w: 727.5199}
+    coverText: Anusha, 27
+    aboutTextHeight: 40
+    aboutText: Researcher
+    basics:
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Occasionally
+    - bandImage: {fileID: 21300000, guid: f0bce1d61d268f64b9ae58a530d30e9f, type: 3}
+      bandName: Regularly
+    - bandImage: {fileID: 21300000, guid: 89194e587ba01d14382d4d84ac234edd, type: 3}
+      bandName: Don't Want
+    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+      bandName: Left
+    interests:
+    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+      bandName: Black Lives Matter
+    - bandImage: {fileID: 21300000, guid: cfc0baec8691c4d4dafbc8bd2702f7d5, type: 3}
+      bandName: Writing
+    - bandImage: {fileID: 21300000, guid: 5ae86d7f7a6a1c94fa051aec4bef8ed0, type: 3}
+      bandName: Theatre
+    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+      bandName: Museums & Galleries
+    profileImages:
+    - profileText: 
+      content: {fileID: 21300000, guid: 36359db1ae6890b49af1b7e46c0a92a9, type: 3}
+      position: 6
+      xywh: {x: 147, y: 71, z: 1187.97, w: 1057.572}
+    - profileText: 
+      content: {fileID: 21300000, guid: ef89c0377f3a0374286783253bbbd35f, type: 3}
+      position: 8
+      xywh: {x: 0, y: 98.6, z: 707, w: 1057.572}
+    - profileText: 
+      content: {fileID: 21300000, guid: d3cf7488b3ae71340835dc7ca9935a0c, type: 3}
+      position: 40
+      xywh: {x: 0.0000027418, y: 196.07, z: 905.0562, w: 1122.131}
+    spotifyItems: []
+    instagramSprites: []
+    experienceData: {fileID: 11400000, guid: e1a5281171fe207429f8c4f1589e4478, type: 2}
+    prompts:
+    - promptLineHeight: 60
+      promptAnswerHeight: 170
+      promptLine: Two truths and a lie
+      promptAnswer: I wrote a thesis on ancient Indian erotica, I wrote product descriptions
+        for the first sex toy web-store in the country and I already lied
+      promptPosition: 5
+    - promptLineHeight: 60
+      promptAnswerHeight: 80
+      promptLine: My flex..
+      promptAnswer: "I don\u2019t let anyone talk me out of using public transport"
+      promptPosition: 7
+    - promptLineHeight: 120
+      promptAnswerHeight: 50
+      promptLine: "If loving this is wrong, then I don\u2019t want to be right"
+      promptAnswer: HOT PRIEST
+      promptPosition: 9
+  - profileName: Kritika
+    coverSprite: {fileID: 21300000, guid: f37c57388cdb2704da98b5e2e69c9402, type: 3}
+    coverOffset: {x: 0, y: 224, z: 780, w: 1386}
+    coverText: Kritika, 26
+    aboutTextHeight: 160
+    aboutText: "Graphic designer. I live in and off of fandoms, and it might look
+      like I\u2019m always in between jobs. <br>"
+    basics:
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Socially
+    - bandImage: {fileID: 21300000, guid: f0bce1d61d268f64b9ae58a530d30e9f, type: 3}
+      bandName: Sometimes
+    interests:
+    - bandImage: {fileID: 21300000, guid: cfc0baec8691c4d4dafbc8bd2702f7d5, type: 3}
+      bandName: Fantasy
+    - bandImage: {fileID: 21300000, guid: eabe0b7b1e650ed459981d4798dc5018, type: 3}
+      bandName: Staycations
+    - bandImage: {fileID: 21300000, guid: c8e194bc1f64e224c9d95964f9d820d8, type: 3}
+      bandName: Baking
+    - bandImage: {fileID: 21300000, guid: 7d4bf233d6be7e9448116af0e8446334, type: 3}
+      bandName: Indie
+    profileImages:
+    - profileText: 
+      content: {fileID: 21300000, guid: 553714eadfe322746892e58e4201d4f7, type: 3}
+      position: 6
+      xywh: {x: 0, y: 0, z: 1040, w: 780}
+    - profileText: 
+      content: {fileID: 21300000, guid: 161a4150c48f2004ca8989d554bc4e2a, type: 3}
+      position: 9
+      xywh: {x: 0, y: 0, z: 720, w: 1130}
+    spotifyItems: []
+    instagramSprites: []
+    experienceData: {fileID: 11400000, guid: 1d87a2e195c07354cb03d5b709ab2192, type: 2}
+    prompts:
+    - promptLineHeight: 120
+      promptAnswerHeight: 50
+      promptLine: A conspiracy theory I believe in...
+      promptAnswer: The porn ban was the downfall of tumblr
+      promptPosition: 5
+    - promptLineHeight: 60
+      promptAnswerHeight: 50
+      promptLine: Together we could get...
+      promptAnswer: Charcuterie board. Or rasam rice
+      promptPosition: 7
+    - promptLineHeight: 60
+      promptAnswerHeight: 50
+      promptLine: "I\u2019m still not over\u2026"
+      promptAnswer: How GoT ended, where the writers at
+      promptPosition: 9
+  - profileName: Chetna
+    coverSprite: {fileID: 21300000, guid: 265afb8310b9a5b4eb3f0dbce55fc94e, type: 3}
+    coverOffset: {x: 0, y: -3.084698, z: 720, w: 762.541}
+    coverText: Chetna, 28
+    aboutTextHeight: 100
+    aboutText: Product Designer<br>Good vibes only.
+    basics:
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Regularly
+    - bandImage: {fileID: 21300000, guid: f0bce1d61d268f64b9ae58a530d30e9f, type: 3}
+      bandName: Sometimes
+    interests:
+    - bandImage: {fileID: 21300000, guid: 0c8b07f6f90d9f349a55841687f03c23, type: 3}
+      bandName: Yoga
+    - bandImage: {fileID: 21300000, guid: eabe0b7b1e650ed459981d4798dc5018, type: 3}
+      bandName: Backpacking
+    - bandImage: {fileID: 21300000, guid: 66d413bb1ba16da4a9f1bc40b918e7c7, type: 3}
+      bandName: Anime
+    - bandImage: {fileID: 21300000, guid: c8e194bc1f64e224c9d95964f9d820d8, type: 3}
+      bandName: Foodie
+    profileImages:
+    - profileText: 
+      content: {fileID: 21300000, guid: f99e14a0bd3e42f498265b606fb743d5, type: 3}
+      position: 6
+      xywh: {x: -0.000012398, y: 81, z: 705.9471, w: 830.6121}
+    - profileText: 
+      content: {fileID: 21300000, guid: 720a7247e66611f4ea54740580edbc8f, type: 3}
+      position: 9
+      xywh: {x: 4.4, y: 24.9, z: 728.8572, w: 843.663}
+    - profileText: 
+      content: {fileID: 21300000, guid: 705216ffa1424ca40bd3203d51bbd6d8, type: 3}
+      position: 11
+      xywh: {x: 226, y: 0, z: 1151.961, w: 746.8506}
+    spotifyItems:
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Ben Bohmer
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Lorde
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Zack Hemsey
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Arctic Monkeys
+    instagramSprites: []
+    experienceData: {fileID: 11400000, guid: 73f3280b39544b34da9da98dc9b3e11b, type: 2}
+    prompts:
+    - promptLineHeight: 60
+      promptAnswerHeight: 80
+      promptLine: "My mantra is\u2026"
+      promptAnswer: How you treat animals will tell me everything I need to know
+        about you.
+      promptPosition: 5
+    - promptLineHeight: 120.5
+      promptAnswerHeight: 120
+      promptLine: Something I learnt way later than I should have...
+      promptAnswer: "World\u2019s best pancake + maple syrup doesn\u2019t stand a
+        chance before CTR Masale dose"
+      promptPosition: 7
+    - promptLineHeight: 60
+      promptAnswerHeight: 50
+      promptLine: First round is on me if
+      promptAnswer: "You didn\u2019t vote for the ruling party in 2019 "
+      promptPosition: 9
+  - profileName: Deepti
+    coverSprite: {fileID: 21300000, guid: a84ca9a2d68d6b44799cb1963f4ebbc8, type: 3}
+    coverOffset: {x: 0, y: 0, z: 700, w: 1073}
+    coverText: Deepti, 27
+    aboutTextHeight: 160
+    aboutText: Journalist, will probably disappear to meet another deadline
+    basics:
+    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+      bandName: Left
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Socially
+    interests:
+    - bandImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
+      bandName: Arts
+    - bandImage: {fileID: 21300000, guid: e9ce222afad429d40897bf903dd58dc3, type: 3}
+      bandName: Pubs
+    - bandImage: {fileID: 21300000, guid: c61fa890904148944b9cf44724376222, type: 3}
+      bandName: Poetry
+    - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+      bandName: Jazz
+    profileImages: []
+    spotifyItems: []
+    instagramSprites: []
+    experienceData: {fileID: 0}
+    prompts: []

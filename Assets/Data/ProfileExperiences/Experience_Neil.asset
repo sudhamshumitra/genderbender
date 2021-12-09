@@ -80,11 +80,11 @@ MonoBehaviour:
     that this becomes necessary."
   - "Let\u2019s take a look at how Neil navigates the app"
   - Neil matches with Deepti
-  - TBD
-  - TBD
-  - TBD
-  - TBD
-  - TBD
+  - "Sometimes there\u2019s a disconnect when we talk to a match\u2026"
+  - "Sure, hundreds of us connect on food\u2026 but discomfort with food easily stands
+    in for notions of purity and impurity. Just a matter of choice, it\u2019s an
+    individualistic twist on systematic oppression."
+  - "Safe to say Neil and Deepti didn\u2019t unmatch"
   GeneralScreenDataCollection:
   - originalPromptLine: "My real life superpower is\u2026"
     originalPromptAnswer: Pretending to work while just reading to win an argument
@@ -154,7 +154,7 @@ MonoBehaviour:
   - chatElements:
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: "God, I\u2019m just boring you"
+      chatContent: I must be boring you
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
@@ -210,7 +210,7 @@ MonoBehaviour:
       isUserOwnedChat: 0
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: "Yea but I don\u2019t know, we just didn\u2019t connect.. I can
+      chatContent: "Yeah but I don\u2019t know, we just didn\u2019t connect.. I can
         talk about dogs or cats man.."
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
