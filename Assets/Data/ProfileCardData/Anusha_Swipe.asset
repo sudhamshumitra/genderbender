@@ -36,8 +36,8 @@ MonoBehaviour:
       bandName: Camping
     - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
       bandName: EDM
-    - bandImage: {fileID: 21300000, guid: 0152397ce7638294ebbf78836c9bc345, type: 3}
-      bandName: Video Games
+    - bandImage: {fileID: 21300000, guid: 8fda195071f80c44fa26c65b5bd62bb8, type: 3}
+      bandName: Gymming
     profileImages: []
     spotifyItems: []
     instagramSprites: []
