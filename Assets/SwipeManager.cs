@@ -9,6 +9,19 @@ using UnityEngine.Video;
 
 public class SwipeManager : MonoBehaviour
 {
+
+    [SerializeField] private GameObject whiteBlockLeft;
+    [SerializeField] private GameObject whiteBlockRight;
+    [SerializeField] private GameObject whiteBlockOnDirectionScreen;
+
+    private void FirstScreenHighlighter(bool status)
+    {
+        whiteBlockLeft.gameObject.SetActive(status);
+        whiteBlockRight.gameObject.SetActive(status);
+        whiteBlockOnDirectionScreen.gameObject.SetActive(status);
+    }
+
+
     private Coroutine fadeinRoutine;
 
     [SerializeField] private Image curtainImage;
@@ -203,9 +216,12 @@ public class SwipeManager : MonoBehaviour
     {
         if (currentPageNumber < 3)
         {
+            FirstScreenHighlighter(false);
+            
             switch (currentPageNumber)
             {
                 case 0:
+                    FirstScreenHighlighter(true);
                     ShowDirectionScreen(
                         "Welcome to //CasteNoBar. <br><br>We have multiple narratives that you can choose from and experience by 'hearting'..<br><br> Click on the bottom right arrow to continue");
                     break;
@@ -220,6 +236,7 @@ public class SwipeManager : MonoBehaviour
         }
         else
         {
+            FirstScreenHighlighter(false);
             restartButton.gameObject.SetActive(false);
 
             var pageData = experienceData.pageType[currentPageNumber];
