@@ -21,6 +21,8 @@ MonoBehaviour:
   pageType:
   - pageType: 1
     mapIndex: 0
+  - pageType: 1
+    mapIndex: 0
   - pageType: 5
     mapIndex: 0
   - pageType: 1

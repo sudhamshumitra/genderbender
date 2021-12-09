@@ -201,24 +201,26 @@ public class SwipeManager : MonoBehaviour
     
     private void UpdateScreen()
     {
-        if (currentPageNumber < 2)
+        if (currentPageNumber < 3)
         {
-            if (currentPageNumber == 0)
+            switch (currentPageNumber)
             {
-                ShowDirectionScreen(
-                    "Welcome to //CasteNoBar. <br><br>We have multiple narratives that you can choose from and experience by 'hearting'..<br><br> Click on the bottom right arrow to continue");
+                case 0:
+                    ShowDirectionScreen(
+                        "Welcome to //CasteNoBar. <br><br>We have multiple narratives that you can choose from and experience by 'hearting'..<br><br> Click on the bottom right arrow to continue");
+                    break;
+                case 1:
+                    ShowDirectionScreen(
+                        "2nd direction screen goes here");
+                    break;
+                case 2:
+                    ShowProfileScreen();
+                    break;
             }
-            else
-            {
-                ShowProfileScreen();
-            }            
-         }
+        }
         else
         {
-
-            
-                restartButton.gameObject.SetActive(false);
-            
+            restartButton.gameObject.SetActive(false);
 
             var pageData = experienceData.pageType[currentPageNumber];
             switch (pageData.pageType)
