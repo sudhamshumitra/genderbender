@@ -287,7 +287,7 @@ MonoBehaviour:
     - bandImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
       bandName: TBD
     instagramSprites: []
-    experienceData: {fileID: 0}
+    experienceData: {fileID: 11400000, guid: 58fa62ee049bbfc49bce694b4452beb6, type: 2}
     prompts:
     - promptLineHeight: 60
       promptAnswerHeight: 100

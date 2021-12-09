@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8f9acee58ee4f1cb36b2d38e3ab5866, type: 3}
+  m_Name: Experience_Bharat
+  m_EditorClassIdentifier: 
+  selectedProfileName: Chetna
+  selectedProfileDP:
+    profileText: 
+    content: {fileID: 21300000, guid: 265afb8310b9a5b4eb3f0dbce55fc94e, type: 3}
+    position: 5
+    xywh: {x: 27.6, y: -51.7, z: 130.1047, w: 251.2}
+  pageType:
+  - pageType: 1
+    mapIndex: 0
+  - pageType: 5
+    mapIndex: 0
+  - pageType: 1
+    mapIndex: 0
+  - pageType: 1
+    mapIndex: 1
+  - pageType: 1
+    mapIndex: 2
+  - pageType: 4
+    mapIndex: 0
+  - pageType: 1
+    mapIndex: 3
+  - pageType: 6
+    mapIndex: 0
+  - pageType: 1
+    mapIndex: 4
+  - pageType: 1
+    mapIndex: 5
+  - pageType: 7
+    mapIndex: 0
+  - pageType: 1
+    mapIndex: 6
+  - pageType: 1
+    mapIndex: 7
+  - pageType: 7
+    mapIndex: 1
+  - pageType: 1
+    mapIndex: 7
+  - pageType: 8
+    mapIndex: 0
+  - pageType: 0
+    mapIndex: 0
+  directionScreens:
+  - '//CasteNoBar features characters played by kind friends. These profiles are
+    works of fiction. What you will see are essentially a bunch of stories, all woven
+    together from real experiences. '
+  - Now, you've chosen Bharat's profile. <br><br>Click on the bottom right arrow
+    to experience her narrative.
+  - "A closer look at his description of himself through \u201CBasics\u201D and \u201CInterests\u201D.
+    And how these alter who swipes right on him."
+  - "Bharat swipes right on most women\u2019s profiles to see which ones match with
+    him eventually. We are told that the ratio of men to women on these apps is such.
+    Click on bottom arrow to continue."
+  - We savarnas like to have everyone believe that a lot is up to chance. Quietly
+    denying that chance is actually a well planned schema.
+  - "Tap on the bottom right arrow to see how chance operates in Bharat\u2019s and
+    Chetana\u2019s lives."
+  - In the absence of policies that address caste structure and its material effects,
+    and skewed hiring practices, product based companies, just like the top jobs
+    in judiciary or education, inevitably favour savarnas.
+  - TBD
+  - "And the \u201Cnetworks\u201D grow, even through the channel of dating\u2026
+    benefiting us in all other spheres. "
+  GeneralScreenDataCollection: []
+  spriteChange:
+  - profileImages:
+    - profileText: Tap on the image to see what it reveals.
+      content: {fileID: 21300000, guid: 3d1a191b2e608e44a97c00741483b63d, type: 3}
+      position: 5
+      xywh: {x: 0, y: -140.9, z: 593.1, w: 546.3}
+    - profileText: Chances of Anusha finding a non-picturesque profile impressive
+        is quite low. We look for a story behind pictures, an activity or a setting.
+      content: {fileID: 21300000, guid: 10d9e4b80e4342e4b8dd628435c8ad1c, type: 3}
+      position: 5
+      xywh: {x: 0, y: -113.1, z: 617.4, w: 615.8}
+  chatData:
+  - chatElements:
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Is that \u2026Kodachadri in your picture?"
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Yup\u2026 you\u2019ve been there too obviously?"
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: 'Yea.. back in 2012. Did all the possible treks in the last ten
+        years. Yet, so many more to go '
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Oh for sure\u2026 too many. Just not enough weekends!"
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Haha.. which is why I said goodbye to my job
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Some of us aren\u2019t so lucky"
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "I wouldn\u2019t call it luck\u2026 it\u2019s a choice you have
+        to make. I couldn\u2019t be happy with a 9 to 5 routine."
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "I don\u2019t know how to survive it either. But I just keep myself
+        busy with things"
+      isUserOwnedChat: 0
+  - chatElements:
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Flexible working hours ah?
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Pretty much.. startup. I don\u2019t know how these Infosys types
+        do it"
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Who are these people who still choose service based companies
+        lol
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: hahaha! Yea, nobody should.
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: What company do you work in?
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: '***'
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Oh.. what. Do you know Nikhil?
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: K? Of course! He was team lead<br>
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Arre! He was my junior in college.
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: We met on a dating app actually :p Then he told me about this
+        opening etc.
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Though he wants to pursue photography now
+      isUserOwnedChat: 0
+  spotifyData:
+    bandInfo:
+    - metaInfo: "We may prefer the \u201CAgnostic\u201D and \u201CLiberal\u201D but
+        espouse Western Astrology as polished, letting status quo go unquestioned"
+      artistName: Gemini
+      artistImage: {fileID: 21300000, guid: 9f8c2cec19d635346a0a50420127cb39, type: 3}
+    - metaInfo: "Expensive lifestyles that seem simplistic become our aesthetic,
+        removing our present from our past, making it seem like anybody can \u201Cchoose\u201D
+        to be simple"
+      artistName: Camping
+      artistImage: {fileID: 21300000, guid: eabe0b7b1e650ed459981d4798dc5018, type: 3}
+    - metaInfo: "We hear \u201Cgymming can\u2019t be your personality\u201D or even
+        \u201Cnightclubs or rolling a doobie\u201D can\u2019t. Easier to dismiss
+        these than those traditionally thought to require intelligence, a property
+        of the top of the caste hierarchy"
+      artistName: Gymming
+      artistImage: {fileID: 21300000, guid: 8fda195071f80c44fa26c65b5bd62bb8, type: 3}
+    - metaInfo: TBD
+      artistName: TBD
+      artistImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+  swipeVideoName: BharatSwipeVideo
