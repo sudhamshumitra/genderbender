@@ -17,7 +17,7 @@ MonoBehaviour:
     profileText: 
     content: {fileID: 21300000, guid: 008223be0c70e514c8e7eea3b84438d0, type: 3}
     position: 5
-    xywh: {x: 1.8, y: -86.7, z: 169.7, w: 255.6}
+    xywh: {x: 44.29, y: -86.7, z: 169.7, w: 255.6}
   pageType:
   - pageType: 1
     mapIndex: 0

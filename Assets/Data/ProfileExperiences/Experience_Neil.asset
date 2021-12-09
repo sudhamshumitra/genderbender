@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8f9acee58ee4f1cb36b2d38e3ab5866, type: 3}
   m_Name: Experience_Neil
   m_EditorClassIdentifier: 
-  selectedProfileName: Neil
+  selectedProfileName: Deepti
   selectedProfileDP:
     profileText: 
-    content: {fileID: 21300000, guid: 0525ac5c4c3d00547bafd0cfd7d2a775, type: 3}
+    content: {fileID: 21300000, guid: a84ca9a2d68d6b44799cb1963f4ebbc8, type: 3}
     position: 5
-    xywh: {x: 0, y: -56.8, z: 130.1047, w: 203.6934}
+    xywh: {x: 32.53, y: -26.3, z: 130.1047, w: 203.6934}
   pageType:
   - pageType: 1
     mapIndex: 0
@@ -29,32 +29,36 @@ MonoBehaviour:
     mapIndex: 1
   - pageType: 1
     mapIndex: 2
-  - pageType: 4
+  - pageType: 2
     mapIndex: 0
   - pageType: 1
     mapIndex: 3
-  - pageType: 6
-    mapIndex: 0
   - pageType: 1
     mapIndex: 4
-  - pageType: 3
+  - pageType: 4
     mapIndex: 0
   - pageType: 1
     mapIndex: 5
   - pageType: 1
     mapIndex: 6
-  - pageType: 7
+  - pageType: 6
     mapIndex: 0
   - pageType: 1
     mapIndex: 7
   - pageType: 1
     mapIndex: 8
+  - pageType: 7
+    mapIndex: 0
   - pageType: 1
     mapIndex: 9
   - pageType: 7
     mapIndex: 1
   - pageType: 1
     mapIndex: 10
+  - pageType: 7
+    mapIndex: 2
+  - pageType: 1
+    mapIndex: 11
   - pageType: 8
     mapIndex: 0
   - pageType: 0
@@ -63,30 +67,34 @@ MonoBehaviour:
   - '//CasteNoBar features characters played by kind friends. These profiles are
     works of fiction. What you will see are essentially a bunch of stories, all woven
     together from real experiences. '
-  - Now, you've chosen Anusha's profile. <br><br>Click on the bottom right arrow
-    to experience her narrative.
-  - Tap on the bottom right arrow to look more closely at the interests Anusha presents
-    on the dating app
-  - "A glimpse of Anusha\u2019s experience as she looks through different profiles.
-    Click on the bottom right arrow to continue."
-  - "Tap on Neil's photo in the next screen to see how it could have been different\u2026
-    and if Anusha would swipe right then. "
-  - "But what stories do we, savarnas, find interesting? The kind that fits into
-    our aesthetic, something we aspire for. Not something we\u2019ve already experienced
-    many years ago thanks to our quick upward mobility."
-  - "It\u2019s no surprise that Neil and Anusha found each other on the app, the
-    algorithm did its job. Now they do theirs..."
-  - "Invested in social issues far away from our realities, turning to white icons
-    who offer alternative discourses\u2026 having already consumed content that problematizes
-    something we enjoyed as children\u2026 all traits of progressive individuals. "
-  - We even deliberately bring up social issues we support, to see if the match has
-    similar values. But how is that ever going to be enough to understand our location
-    in relation to our society?
-  - "Anusha and Neil keep talking though, since they relate with each other on so
-    many things\u2026 Black Lives Matter and Feminism, the importance of public transport,
-    how social science research needs funding..."
-  - Would you mind?
-  GeneralScreenDataCollection: []
+  - Now, you've chosen Neil's profile. <br><br>Click on the bottom right arrow to
+    experience her narrative.
+  - A closer look at how Neil chooses to present himself to women on the app. Tap
+    on the prompt on the next screen to see what it really tries to communicate.
+  - " \u201CYou are what you listen to.\u201D Sound familiar? There\u2019s no simple
+    way of saying how we retain sway over what is considered to be good taste\u2026
+    sometimes it\u2019s obscure artists that do the job, sometimes it\u2019s not."
+  - Here are some instances of what stories music can tell
+  - "Neil swipes right on most women\u2019s profiles to see which ones match with
+    him eventually. We hear that the ratio of men to women on these apps is such
+    that this becomes necessary."
+  - "Let\u2019s take a look at how Neil navigates the app"
+  - Neil matches with Deepti
+  - TBD
+  - TBD
+  - TBD
+  - TBD
+  - TBD
+  GeneralScreenDataCollection:
+  - originalPromptLine: "My real life superpower is\u2026"
+    originalPromptAnswer: Pretending to work while just reading to win an argument
+      at the next house party
+    originalTopText: Tap to see what this prompt is trying to reveal
+    updatedPromptText: Often second, third, fourth generation landowning or propertied
+      castes speak of economic stability and entrepreneurship like it has no history.
+      Who but someone with the same kind of economic and thus, social capital of
+      generations that can sustain our whims and fancies will relate to this response?
+    updatedTopText: Click on the bottom arrow to continue!
   spriteChange:
   - profileImages:
     - profileText: Tap on the image to see what it reveals.
@@ -102,95 +110,127 @@ MonoBehaviour:
   - chatElements:
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: "Hello there\u2026 how goes?"
+      chatContent: Hi there
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Many things rotten in the state of India, I\u2019d say"
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Hellos. Right you are, madame.
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: Great, got done some reading.
-      isUserOwnedChat: 0
-    - waitBeforeSending: 0.5
-      waitWhileTyping: 0.5
-      chatContent: 'Btw there is nothing sinful about the priest. Or anything about
-        the show. '
-      isUserOwnedChat: 0
-    - waitBeforeSending: 0.5
-      waitWhileTyping: 0.5
-      chatContent: Bless Phoebe WB, nobody needs to grow up with problematic stuff
-        like Friends anymore
-      isUserOwnedChat: 0
-    - waitBeforeSending: 0.5
-      waitWhileTyping: 0.5
-      chatContent: If I see one more profile that says they quote too much from a
-        racist-sexist show!!
+      chatContent: "Is that what you\u2019re writing about? I see you\u2019re a journalist"
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: "I\u2019m toh going through yet another Ghibli phase. Away from
-        all nonsense."
-      isUserOwnedChat: 1
-    - waitBeforeSending: 0.5
-      waitWhileTyping: 0.5
-      chatContent: Y'know the wide blue eyes, blond hair in anime is a consequence
-        of Eurocentrism right?
+      chatContent: "Kind of\u2026 I\u2019m generally covering education. Freelancing.
+        You?"
       isUserOwnedChat: 0
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: Ya ya, at least not some white man writing it.
+      chatContent: "I\u2019m kind of working on a research project of my own."
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Broadly\u2026 Representation of minority identities in contemporary
+        Indian English novels"
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: That IS broad
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "It\u2019s still very preliminary. Trying to focus on this moment
+        of anti CAA protests"
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Can I read?
+      isUserOwnedChat: 0
+  - chatElements:
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "God, I\u2019m just boring you"
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: What! No. Tbh this conversation has been a bit of a relief..
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: I can imagine what you must be getting in your inbox..
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "As far as conversing goes\u2026 I\u2019ve had a strange day myself."
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Been talking to this girl on here\u2026 conversations seemed
+        a bit off but I thought why not meet up"
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Uh oh. What happened?
+      isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "So.. She was talking about tamil music I\u2019d never heard about
+        and kept ordering meat for the table and I\u2019m vegetarian.."
       isUserOwnedChat: 1
   - chatElements:
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: "It\u2019s ridiculous, how they\u2019re treating students in Delhi"
+      chatContent: She kept talking about chicken recipes and mutton this, pork that
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: "This was bound to happen\u2026 bringing them back to power\u2026
-        voters are ridiculous tbh"
-      isUserOwnedChat: 0
-    - waitBeforeSending: 0.5
-      waitWhileTyping: 0.5
-      chatContent: "They\u2019ve gone and arrested Azad all over again"
+      chatContent: Felt weird
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: "Twitter is a shit show. He\u2019s cute though, yea?"
+      chatContent: Oh man.. Sorry about that
       isUserOwnedChat: 0
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: SO. HOT.
+      chatContent: "Funniest part is\u2026 she was talking about her pets back home
+        in the village\u2026"
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: hehe, I am agree
-      isUserOwnedChat: 0
-    - waitBeforeSending: 0.5
-      waitWhileTyping: 0.5
-      chatContent: "Hahaha. But leave the buses alone, janta\u2026 what did they
-        ever do to you"
+      chatContent: Chicks! Never heard that from anyone
       isUserOwnedChat: 1
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: I am agree again
+      chatContent: Aww that could be cute!
       isUserOwnedChat: 0
     - waitBeforeSending: 0.5
       waitWhileTyping: 0.5
-      chatContent: "Hey, I hope you don\u2019t mind\u2026 I\u2019d rather chat on
-        whatsapp. You?"
+      chatContent: "Yea but I don\u2019t know, we just didn\u2019t connect.. I can
+        talk about dogs or cats man.."
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "Just to make sure\u2026 what pets do you have? :p"
+      isUserOwnedChat: 1
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: "hahaha!<br>A cat but she\u2019s my owner"
       isUserOwnedChat: 0
+    - waitBeforeSending: 0.5
+      waitWhileTyping: 0.5
+      chatContent: Of course she is :)
+      isUserOwnedChat: 1
   spotifyData:
     bandInfo:
-    - metaInfo: "Don\u2019t we train ourselves in what\u2019s a polished, intellectual
-        interest to have\u2026 and then heavily guard it, co opt the arts to fit
-        a monolithic aesthetic"
-      artistName: Museums & galleries
-      artistImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
-    - metaInfo: To be in theatre, even more than to watch theatre, in many metro
-        cities is often to be born into the circles or to break through oppressive
-        caste gatekeeping
-      artistName: Theatre
-      artistImage: {fileID: 21300000, guid: 5ae86d7f7a6a1c94fa051aec4bef8ed0, type: 3}
-    - metaInfo: "Invested in political movements of the West because that\u2019s
-        what we consume, disconnected with realities of our own"
-      artistName: Black Lives Matter
-      artistImage: {fileID: 21300000, guid: 0fc7e51f49ee80d4abb6c681933e850d, type: 3}
-  swipeVideoName: AnushaSwipeVideo
+    - metaInfo: TBD
+      artistName: Porcupine Tree
+      artistImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+    - metaInfo: TBD
+      artistName: The Strokes
+      artistImage: {fileID: 21300000, guid: d6839fc7a859de644a3c0536397a23d6, type: 3}
+  swipeVideoName: NeilSwipeVideo

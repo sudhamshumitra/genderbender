@@ -1051,7 +1051,7 @@ MonoBehaviour:
   swipePrefab: {fileID: 4084679139311427345, guid: 304bc8b5f1830644f91bb88e974601a9,
     type: 3}
   swipeCardParent: {fileID: 551986500}
-  cardData: {fileID: 11400000, guid: fca313716ee6a024993c4a8c791a86a9, type: 2}
+  cardData: {fileID: 11400000, guid: 20857560fd3a7ec42a99497ba12ea7ff, type: 2}
   bandScreen: {fileID: 511082931}
   finalScreen: {fileID: 194943856}
   videoScreen: {fileID: 327324890}

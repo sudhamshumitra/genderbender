@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb9206ffc974d15a810a13f1d6f69f2, type: 3}
   m_Name: Anusha_Swipe
   m_EditorClassIdentifier: 
+  IsSamplingExperienceData: 0
   CardDataCollection:
   - profileName: Bharat
     coverSprite: {fileID: 21300000, guid: 6eab5d3a12e197143af6b40e45b05d8f, type: 3}
@@ -111,15 +112,16 @@ MonoBehaviour:
     experienceData: {fileID: 0}
     prompts:
     - promptLineHeight: 60
-      promptAnswerHeight: 60
-      promptLine: After work you will find me...
-      promptAnswer: Work who?
-      promptPosition: 6
-    - promptLineHeight: 60
       promptAnswerHeight: 80
       promptLine: "My real life superpower is\u2026"
       promptAnswer: Pretending to work while just reading to win an argument at the
         next house party
+      promptPosition: 6
+    - promptLineHeight: 60
+      promptAnswerHeight: 80
+      promptLine: My most useless skill is...
+      promptAnswer: To find a suitable line from Shakespeare for every situation.
+        And...
       promptPosition: 7
     - promptLineHeight: 60
       promptAnswerHeight: 80
