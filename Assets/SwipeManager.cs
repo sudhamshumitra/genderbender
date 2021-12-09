@@ -302,7 +302,7 @@ public class SwipeManager : MonoBehaviour
         restartButton.onClick.AddListener(RestartScene);
     }
 
-    private void RestartScene()
+    public void RestartScene()
     {
         SceneManager.LoadScene(0);
     }
