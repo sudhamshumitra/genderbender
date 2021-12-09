@@ -71,8 +71,10 @@ MonoBehaviour:
   - "Prompts are meant to reveal more about a person than just appearance they say.
     Let\u2019s read this one more closely:"
   - "Click on the arrow to see how Chetana\u2019s conversation with a match is going"
-  - TBD
-  - TBD
+  - We may believe we can date across castes.. but once a relationship grows more
+    serious is when caste begins to matter.
+  - "It becomes impossible then to remove dating from the possibility of heteronormative
+    marriage\u2026 especially within the rules of Hindu marriage"
   - Of course there is logic to it.
   GeneralScreenDataCollection:
   - originalPromptLine: "My mantra is\u2026"
