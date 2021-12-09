@@ -24,6 +24,8 @@ MonoBehaviour:
   - pageType: 5
     mapIndex: 0
   - pageType: 1
+    mapIndex: 8
+  - pageType: 1
     mapIndex: 0
   - pageType: 1
     mapIndex: 1
@@ -69,6 +71,9 @@ MonoBehaviour:
   - A peek into her conversation with Abhijith.
   - "As they bond about whiskey collections, they also connect on their \u201Cbackgrounds\u201D..."
   - Small world indeed.
+  - '//CasteNoBar features characters played by kind friends. These profiles are
+    works of fiction. What you will see are essentially a bunch of stories, all woven
+    together from real experiences. '
   GeneralScreenDataCollection:
   - originalPromptLine: A conspiracy theory I believe in...
     originalPromptAnswer: The porn ban was the downfall of tumblr

@@ -205,7 +205,7 @@ public class SwipeManager : MonoBehaviour
             if (currentPageNumber == 0)
             {
                 ShowDirectionScreen(
-                    "Welcome to //CasteNoBar. <br><br>We have multiple narratives that you can choose (by 'hearting') and experience..<br><br> Here is a glimpse of what we have for you at www.castenobar.me");
+                    "Welcome to //CasteNoBar. <br><br>We have multiple narratives that you can choose (by 'hearting') and experience..<br><br> Click on the bottom right arrow to continue");
             }
             else
             {
